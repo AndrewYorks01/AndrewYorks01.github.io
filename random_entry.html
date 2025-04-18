@@ -1,0 +1,39 @@
+<html>
+<body>
+
+    <h2>Selecting a Random Entry from a List</h2>
+
+    <p id="heading"></p>
+    <p id="demo"></p>
+    <p id="rand"></p>
+    
+    <script>
+    const myJSON = '{"composers":[' +
+    '{"firstName":"Junichi","lastName":"Masuda" },' +
+    '{"firstName":"Go","lastName":"Ichinose" },' +
+    '{"firstName":"Morikazu","lastName":"Aoki" },' +
+    '{"firstName":"Hitomi","lastName":"Sato" },' +
+    '{"firstName":"Shota","lastName":"Kageyama" },' +
+    '{"firstName":"Minako","lastName":"Adachi" },' +
+    '{"firstName":"Hideaki","lastName":"Kuroda" },' +
+    '{"firstName":"Tomoaki","lastName":"Oga" },' +
+    '{"firstName":"Hiromitsu","lastName":"Maeba" }]}';
+    
+    const myObj = JSON.parse(myJSON);
+
+    let intro = "Here is a list of Game Freak composers:";
+    let text = "";
+    for (let i = 0; i < myObj.composers.length; i++){
+        text += myObj.composers[i].firstName + " " + myObj.composers[i].lastName + "<br>";
+    }
+
+    let compid = Math.floor(Math.random() * 8);
+    randComposer = "Random: " + myObj.composers[compid].firstName + " " + myObj.composers[compid].lastName
+
+    document.getElementById("heading").innerHTML = intro;
+    document.getElementById("demo").innerHTML = text;
+    document.getElementById("rand").innerHTML = randComposer;
+    </script>
+
+</body>
+</html>
