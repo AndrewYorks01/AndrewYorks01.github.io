@@ -10,7 +10,21 @@ const xmlhttp = new XMLHttpRequest();
 xmlhttp.onload = function() {
  const obj = JSON.parse(this.responseText);
  const array = obj.coasters;
- document.getElementById("demo").innerHTML = array[0].name;
+
+ var i;
+ var table="<tr><th>Name</th><th>Park</th><th>Manufacturer</th></tr>";
+
+ for (i = 0; i <array.length; i++) { 
+    table += "<tr><td>" +
+    array[i].name +
+    "</td><td>" + 
+    array[i].park +
+    "</td><td>" + 
+    array[i].manufacturer +
+    "</td></tr>";
+ }
+
+ document.getElementById("demo").innerHTML = table;
 }
 xmlhttp.open("GET", "coasterdata.txt");
 xmlhttp.send();
