@@ -33,6 +33,14 @@ function myFunction(xml) {
   var xmlDoc = xml.responseXML;
   var table="<tr><th>Name</th><th>Park</th><th>Manufacturer</th></tr>";
   var x = xmlDoc.getElementsByTagName("COASTER");
+
+  x.sort((a, b) => {
+    if (a.getElementsByTagName("NAME")[0].childNodes[0].nodeValue < b.getElementsByTagName("NAME")[0].childNodes[0].nodeValue) return -1;
+    if (a.getElementsByTagName("NAME")[0].childNodes[0].nodeValue > b.getElementsByTagName("NAME")[0].childNodes[0].nodeValue) return 1;
+    if (a.getElementsByTagName("PARK")[0].childNodes[0].nodeValue < b.getElementsByTagName("PARK")[0].childNodes[0].nodeValue) return -1;
+    if (a.getElementsByTagName("PARK")[0].childNodes[0].nodeValue > b.getElementsByTagName("PARK")[0].childNodes[0].nodeValue) return 1;
+  })
+
   for (i = 0; i <x.length; i++) { 
     table += "<tr><td>" +
     x[i].getElementsByTagName("NAME")[0].childNodes[0].nodeValue +
