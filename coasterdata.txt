@@ -161,6 +161,5 @@
   {"name":"Wildcat", "park":"Cedar Point", "manufacturer":"Schwarzkopf", "credit":"-"},
   {"name":"Wildcat", "park":"Hersheypark", "manufacturer":"GCI", "credit":"-"},
   {"name":"Wildcat's Revenge", "park":"Hersheypark", "manufacturer":"RMC", "credit":"138"},
-  {"name":"Oscar's Wacky Taxi", "park":"Sesame Place", "manufacturer":"Gravity Group", "credit":"-"},
   {"name":"Wildfire", "park":"Silver Dollar City", "manufacturer":"B&M", "credit":"123"}  
 ]}
