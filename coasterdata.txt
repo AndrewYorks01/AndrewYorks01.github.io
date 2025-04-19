@@ -99,7 +99,7 @@
   {"name":"Pandemonium", "park":"Six Flags Over Texas", "manufacturer":"Gerstlauer", "credit":"110"},
   {"name":"Pandemonium", "park":"Six Flags St. Louis", "manufacturer":"Gerstlauer", "credit":"-"},
   {"name":"Pantheon", "park":"Busch Gardens Williamsburg", "manufacturer":"Intamin", "credit":"99"},
-  {"name":"Pantherian", "park":"Busch Gardens Williamsburg", "manufacturer":"Intamin", "credit":"-"},
+  {"name":"Pantherian", "park":"Kings Dominion", "manufacturer":"Intamin", "credit":"-"},
   {"name":"Phantom's Revenge", "park":"Kennywood", "manufacturer":"Morgan", "credit":"129"},
   {"name":"Phoenix", "park":"Knoebels", "manufacturer":"PTC", "credit":"73"},
   {"name":"Phoenix Rising", "park":"Busch Gardens Tampa", "manufacturer":"B&M", "credit":"152"},
