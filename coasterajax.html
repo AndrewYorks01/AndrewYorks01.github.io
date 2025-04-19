@@ -13,43 +13,36 @@ th,td {
 
 <h1>Coaster List</h1>
 
-<p>Click on a coaster to display information.</p>
-<p id="showCoaster"></p>
+<button type="button" onclick="loadDoc()">Create list</button>
 <br><br>
 <table id="demo"></table>
 
 <script>
-const xhttp = new XMLHttpRequest();
-let coaster;
-xhttp.onload = function() {
- const xmlDoc = xhttp.responseXML; 
- coaster = xmlDoc.getElementsByTagName("COASTER");
- loadCoaster();
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+  };
+  xhttp.open("GET", "coasters.xml", true);
+  xhttp.send();
 }
-xhttp.open("GET", "cd_catalog.xml");
-xhttp.send();
-
-function loadCoaster() {
+function myFunction(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
   var table="<tr><th>Name</th><th>Park</th><th>Manufacturer</th></tr>";
   var x = xmlDoc.getElementsByTagName("COASTER");
-  for (i = 0; i <coaster.length; i++) { 
+  for (i = 0; i <x.length; i++) { 
     table += "<tr><td>" +
-      coaster[i].getElementsByTagName("NAME")[0].childNodes[0].nodeValue +
+    x[i].getElementsByTagName("NAME")[0].childNodes[0].nodeValue +
     "</td><td>" +
-      coaster[i].getElementsByTagName("PARK")[0].childNodes[0].nodeValue +
+    x[i].getElementsByTagName("PARK")[0].childNodes[0].nodeValue +
     "</td><td>" +
-      coaster[i].getElementsByTagName("MANUFACTURER")[0].childNodes[0].nodeValue +
+    x[i].getElementsByTagName("MANUFACTURER")[0].childNodes[0].nodeValue +
     "</td></tr>";
   }
   document.getElementById("demo").innerHTML = table;
-}
-
-function displayCoaster(i) {
-  document.getElementById("showCoaster").innerHTML =
-  "Name: " +
-  cd[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
-  "<br>Manufacturer: " + 
-  cd[i].getElementsByTagName("MANUFACTURER")[0].childNodes[0].nodeValue;
 }
 </script>
 
