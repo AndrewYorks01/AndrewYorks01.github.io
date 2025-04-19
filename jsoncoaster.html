@@ -33,14 +33,16 @@ xmlhttp.onload = function() {
  const obj = JSON.parse(this.responseText);
  const array = obj.coasters;
 
+ // Sort the coasters alphabetically.
  array.sort((a, b) => {
-    const nameComp = a.manufacturer.localeCompare(b.manufacturer);
+    const nameComp = a.name.localeCompare(b.name);
     if (nameComp !== 0){
         return nameComp;
     }
-    return a.name.localeCompare(b.name);
+    return a.park.localeCompare(b.park);
  })
 
+ // Create the table.
  var i;
  var table="<tr><th>Name</th><th>Park</th><th>Manufacturer</th></tr>";
 
