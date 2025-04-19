@@ -1,9 +1,30 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  </head>
+  
+  
+  <style>
+    body{
+      font-family: "Open Sans";
+    }
+  table,th,td {
+    border : 1px solid black;
+    border-collapse: collapse;
+  }
+  th,td {
+    padding: 5px;
+  }
+  </style>
+  
 <body>
 
 <h2>Fetch a JSON file with XMLHttpRequest</h2>
-<p id="demo"></p>
+<table id="demo"></table>
 
 <script>
 const xmlhttp = new XMLHttpRequest();
