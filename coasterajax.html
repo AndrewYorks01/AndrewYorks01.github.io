@@ -32,7 +32,7 @@ xhttp.send();
 function loadCoaster() {
   var table="<tr><th>Name</th><th>Park</th><th>Manufacturer</th></tr>";
   var x = xmlDoc.getElementsByTagName("COASTER");
-  for (i = 0; i <cd.length; i++) { 
+  for (i = 0; i <coaster.length; i++) { 
     table += "<tr><td>" +
       coaster[i].getElementsByTagName("NAME")[0].childNodes[0].nodeValue +
     "</td><td>" +
@@ -45,7 +45,7 @@ function loadCoaster() {
 }
 
 function displayCoaster(i) {
-  document.getElementById("showCD").innerHTML =
+  document.getElementById("showCoaster").innerHTML =
   "Name: " +
   cd[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
   "<br>Manufacturer: " + 
