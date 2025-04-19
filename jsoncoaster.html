@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Fetch a JSON file with XMLHttpRequest</h2>
+<p id="demo"></p>
+
+<script>
+const xmlhttp = new XMLHttpRequest();
+xmlhttp.onload = function() {
+ const obj = JSON.parse(this.responseText);
+ const array = obj.coasters;
+ document.getElementById("demo").innerHTML = array[0].name;
+}
+xmlhttp.open("GET", "coasterdata.txt");
+xmlhttp.send();
+</script>
+
+</body>
+</html>
