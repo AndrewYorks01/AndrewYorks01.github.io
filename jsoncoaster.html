@@ -73,6 +73,8 @@ xmlhttp.send();
 </script>
 
 <script>
+
+  // Display more info about a coaster. This only works if the list is sorted alphabetically by the coaster's name.
     function displayCoaster(i){
       const request = new XMLHttpRequest();
       request.onload = function() {
@@ -151,7 +153,7 @@ xmlhttp.send();
  var table="<tr><th>Name</th><th>Park</th><th>Manufacturer</th></tr>";
 
  for (i = 0; i <array.length; i++) { 
-    table += "<tr><td>" +
+    table += "<tr onClick='displayCoaster(" + i + ")'><td>" +
     array[i].name +
     "</td><td>" + 
     array[i].park +
