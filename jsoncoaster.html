@@ -92,6 +92,10 @@ xmlhttp.send();
 
       let dispText = array[i].name;
       dispText += "<br>" + array[i].park;
+      if (array[i].manufacturer === "in-house")
+        dispText += "<br>This coaster was built in-house by the park themselves.";
+      else
+        dispText += "<br>This coaster was built by " + array[i].manufacturer + ".";
       document.getElementById("showCoaster").innerHTML = dispText;
       }
 
