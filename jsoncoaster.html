@@ -65,7 +65,38 @@ xmlhttp.send();
 
 <script>
   function pressButton(){
-    alert("You pressed the button.");
+    const xmlhttp = new XMLHttpRequest();
+    xmlhttp.onload = function() {
+    const obj = JSON.parse(this.responseText);
+    const array = obj.coasters;
+
+ // Sort the coasters alphabetically.
+ array.sort((a, b) => {
+    const nameComp = a.park.localeCompare(b.park);
+    if (nameComp !== 0){
+        return nameComp;
+    }
+    return a.park.localeCompare(b.name);
+ })
+
+ // Create the table.
+ var i;
+ var table="<tr><th>Name</th><th>Park</th><th>Manufacturer</th></tr>";
+
+ for (i = 0; i <array.length; i++) { 
+    table += "<tr><td>" +
+    array[i].name +
+    "</td><td>" + 
+    array[i].park +
+    "</td><td>" + 
+    array[i].manufacturer +
+    "</td></tr>";
+ }
+
+ document.getElementById("demo").innerHTML = table;
+}
+xmlhttp.open("GET", "coasterdata.txt");
+xmlhttp.send();    
   }
 </script>
 
