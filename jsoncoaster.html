@@ -97,6 +97,9 @@ xmlhttp.send();
         dispText += "<br>This coaster was built by " + array[i].manufacturer + ".";
       if (array[i].credit !== "-")
         dispText += "<br>This was my coaster #" + array[i].credit + ".";
+      if (array[i].ridedate !== "-")
+        dispText += "<br>I rode this coaster for the first time " + array[i].ridedate + ".";
+
       document.getElementById("showCoaster").innerHTML = dispText;
       }
 
