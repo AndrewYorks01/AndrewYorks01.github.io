@@ -95,6 +95,8 @@ xmlhttp.send();
         dispText += "<br>This coaster was built in-house by the park themselves.";
       else
         dispText += "<br>This coaster was built by " + array[i].manufacturer + ".";
+      if (array[i].credit !== "-")
+        dispText += "<br>This was my coaster #" + array[i].credit + ".";
       document.getElementById("showCoaster").innerHTML = dispText;
       }
 
