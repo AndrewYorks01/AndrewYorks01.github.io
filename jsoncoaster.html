@@ -81,11 +81,11 @@ xmlhttp.send();
         
          // Sort the coasters alphabetically.
         array.sort((a, b) => {
-        const nameComp = a.park.localeCompare(b.park);
+        const nameComp = a.name.localeCompare(b.name);
         if (nameComp !== 0){
         return nameComp;
         }
-        return a.name.localeCompare(b.name);
+        return a.park.localeCompare(b.park);
       })
       document.getElementById("showCoaster").innerHTML = array[i].name;
       }
