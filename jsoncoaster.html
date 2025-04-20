@@ -90,8 +90,7 @@ xmlhttp.send();
         return a.park.localeCompare(b.park);
       })
 
-      let dispText = array[i].name;
-      dispText += "<br>" + array[i].park;
+      let dispText = "<b>" + array[i].name + "</b>" + " at " + array[i].park;
       if (array[i].manufacturer === "in-house")
         dispText += "<br>This coaster was built in-house by the park themselves.";
       else
