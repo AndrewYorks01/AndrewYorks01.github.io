@@ -57,7 +57,7 @@ xmlhttp.onload = function() {
  var table="<tr><th>Name</th><th>Park</th><th>Manufacturer</th></tr>";
 
  for (i = 0; i <array.length; i++) { 
-    table += "<tr><td>" +
+    table += "<tr> onClick='displayCoaster(" + i + ")'<td>" +
     array[i].name +
     "</td><td>" + 
     array[i].park +
