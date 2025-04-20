@@ -87,7 +87,9 @@ xmlhttp.send();
         }
         return a.park.localeCompare(b.park);
       })
-      document.getElementById("showCoaster").innerHTML = array[i].name;
+
+      let dispText = array[i].name;
+      document.getElementById("showCoaster").innerHTML = dispText;
       }
 
       request.open("GET", "coasterdata.txt");
