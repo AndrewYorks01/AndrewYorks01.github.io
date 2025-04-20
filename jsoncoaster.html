@@ -74,7 +74,24 @@ xmlhttp.send();
 
 <script>
     function displayCoaster(i){
-    document.getElementById("showCoaster").innerHTML = array[i].name;
+      const request = new XMLHttpRequest();
+      request.onload = function() {
+        const obj = JSON.parse(this.responseText);
+        const array = obj.coasters;
+        
+         // Sort the coasters alphabetically.
+        array.sort((a, b) => {
+        const nameComp = a.park.localeCompare(b.park);
+        if (nameComp !== 0){
+        return nameComp;
+        }
+        return a.name.localeCompare(b.name);
+      })
+      document.getElementById("showCoaster").innerHTML = array[i].name;
+      }
+
+      request.open("GET", "coasterdata.txt");
+      request.send();   
   }
 
   function sortByPark(){
