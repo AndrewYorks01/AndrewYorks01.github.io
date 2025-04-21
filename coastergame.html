@@ -33,10 +33,82 @@
 
     <script>
 
+    // Makes sure some coasters don't show up (mostly coasters that show their name in the picture).
+    // "Sister" coasters at different parks that may be hard to distinguish won't show up either.
     function check(coaster){
     if (coaster.image === "spacemountain_ca.png")
         return false;
     else if (coaster.image === "spacemountain_fl.png")
+        return false;
+    else if (coaster.image === "americanthunder.png")
+        return false;
+    else if (coaster.image === "backlot.png")
+        return false;
+    else if (coaster.image === "bigthunder_ca.png")
+        return false;
+    else if (coaster.image === "bigthunder_fl.png")
+        return false;
+    else if (coaster.image === "blackdiamond.png")
+        return false;
+    else if (coaster.image === "blazingfury.png")
+        return false;
+    else if (coaster.image === "bluestreak.png")
+        return false;
+    else if (coaster.image === "comet.png")
+        return false;
+    else if (coaster.image === "copperheadmountain.png")
+        return false;
+    else if (coaster.image === "cyclone.png")
+        return false;
+    else if (coaster.image === "darkoaster.png")
+        return false;
+    else if (coaster.image === "exterminator.png")
+        return false;
+    else if (coaster.image === "fireinthehole.png")
+        return false;
+    else if (coaster.image === "flightoffear_kd.png")
+        return false;
+    else if (coaster.image === "flightoffear_ki.png")
+        return false;
+    else if (coaster.image === "galaxyspin.png")
+        return false;
+    else if (coaster.image === "gothamcity.png")
+        return false;
+    else if (coaster.image === "grizzly.png")
+        return false;
+    else if (coaster.image === "hurler_carowinds.png")
+        return false;
+    else if (coaster.image === "hurler_kd.png")
+        return false;
+    else if (coaster.image === "judgeroyscream.png")
+        return false;
+    else if (coaster.image === "maverick.png")
+        return false;
+    else if (coaster.image === "newtexasgiant.png")
+        return false;
+    else if (coaster.image === "pandemonium_overtx.png")
+        return false;
+    else if (coaster.image === "pandemonium_stlo.png")
+        return false;
+    else if (coaster.image === "phoenix.png")
+        return false;
+    else if (coaster.image === "queencity.png")
+        return false;
+    else if (coaster.image === "racer_ki.png")
+        return false;
+    else if (coaster.image === "racer75.png")
+        return false;
+    else if (coaster.image === "revengeofthemummy_florida.png")
+        return false;
+    else if (coaster.image === "revengeofthemummy_hollywood.png")
+        return false;
+    else if (coaster.image === "runawaymountain.png")
+        return false;
+    else if (coaster.image === "scorpion.png")
+        return false;
+    else if (coaster.image === "skyrocket.png")
+        return false;
+    else if (coaster.image === "whitelightning.png")
         return false;
     else
         return true;
