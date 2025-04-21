@@ -29,6 +29,7 @@
 
 <body>
     <h1 style align="center">Guess the Coaster</h1>
+    <p style align="center" id="coasterPic"></p>
 
     <script>
     const xmlhttp = new XMLHttpRequest();
@@ -44,6 +45,16 @@
         }
         return a.park.localeCompare(b.park);
         })
+
+    let i = 2;
+
+    let dispImage = "";
+    if (array[i].image !== "-"){
+        dispImage += "<img src=\"" + array[i].image + "\" alt=\"" + array[i].name + "\" style=\"width:250px;height:250px;\"><br>";
+    }
+
+    document.getElementById("coasterPic").innerHTML = dispImage;
+
     }
     xmlhttp.open("GET", "coasterdata.txt");
     xmlhttp.send();
