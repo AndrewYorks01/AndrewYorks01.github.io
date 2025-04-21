@@ -136,8 +136,10 @@
         dispImage += "<img src=\"" + array[i].image + "\" style=\"width:250px;height:250px;\"><br>";
     }
 
-    while (!check(array[i]))
+    while (!check(array[i])){
+        i = Math.floor(Math.random() * array.length);
         dispImage = "<img src=\"" + array[i].image + "\" style=\"width:250px;height:250px;\"><br>";
+    }
 
     document.getElementById("coasterPic").innerHTML = dispImage;
 
