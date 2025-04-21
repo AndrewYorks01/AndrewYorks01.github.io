@@ -154,12 +154,12 @@
   {"name":"Twisted Cyclone", "park":"Six Flags Over Georgia", "manufacturer":"RMC", "credit":"142", "ridedate":"on October 14, 2024", "image":"twistedcyclone.png"},
   {"name":"Twisted Timbers", "park":"Kings Dominion", "manufacturer":"RMC", "credit":"65", "ridedate":"on July 7, 2018", "image":"twistedtimbers.png"},
   {"name":"Twister", "park":"Knoebels", "manufacturer":"in-house", "credit":"74", "ridedate":"on August 3, 2019", "image":"twister.png"},
-  {"name":"VelociCoaster", "park":"Islands of Adventure", "manufacturer":"Intamin", "credit":"105", "ridedate":"on October 13, 2023", "image":"-"},
-  {"name":"Verbolten", "park":"Busch Gardens Williamsburg", "manufacturer":"Zierer", "credit":"-", "ridedate":"on May 11, 2012", "image":"-"},
-  {"name":"White Lightning", "park":"Fun Spot America Orlando", "manufacturer":"GCI", "credit":"154", "ridedate":"on February 17, 2025", "image":"-"},
-  {"name":"Wild Mouse", "park":"Hersheypark", "manufacturer":"Mack", "credit":"-", "ridedate":"on August 11, 2011", "image":"-"},
-  {"name":"Wildcat", "park":"Cedar Point", "manufacturer":"Schwarzkopf", "credit":"-", "ridedate":"on August 15, 2008", "image":"-"},
-  {"name":"Wildcat", "park":"Hersheypark", "manufacturer":"GCI", "credit":"-", "ridedate":"on August 11, 2011", "image":"-"},
-  {"name":"Wildcat's Revenge", "park":"Hersheypark", "manufacturer":"RMC", "credit":"138", "ridedate":"on September 2, 2024", "image":"-"},
-  {"name":"Wildfire", "park":"Silver Dollar City", "manufacturer":"B&M", "credit":"123", "ridedate":"on April 11, 2024", "image":"-"}  
+  {"name":"VelociCoaster", "park":"Islands of Adventure", "manufacturer":"Intamin", "credit":"105", "ridedate":"on October 13, 2023", "image":"velocicoaster.png"},
+  {"name":"Verbolten", "park":"Busch Gardens Williamsburg", "manufacturer":"Zierer", "credit":"-", "ridedate":"on May 11, 2012", "image":"verbolten.png"},
+  {"name":"White Lightning", "park":"Fun Spot America Orlando", "manufacturer":"GCI", "credit":"154", "ridedate":"on February 17, 2025", "image":"whitelightning.png"},
+  {"name":"Wild Mouse", "park":"Hersheypark", "manufacturer":"Mack", "credit":"-", "ridedate":"on August 11, 2011", "image":"wildmouse.png"},
+  {"name":"Wildcat", "park":"Cedar Point", "manufacturer":"Schwarzkopf", "credit":"-", "ridedate":"on August 15, 2008", "image":"wildcat_cp.png"},
+  {"name":"Wildcat", "park":"Hersheypark", "manufacturer":"GCI", "credit":"-", "ridedate":"on August 11, 2011", "image":"wildcat_hp.png"},
+  {"name":"Wildcat's Revenge", "park":"Hersheypark", "manufacturer":"RMC", "credit":"138", "ridedate":"on September 2, 2024", "image":"wildcatsrevenge.png"},
+  {"name":"Wildfire", "park":"Silver Dollar City", "manufacturer":"B&M", "credit":"123", "ridedate":"on April 11, 2024", "image":"wildfire.png"}  
 ]}
