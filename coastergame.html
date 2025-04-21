@@ -46,7 +46,8 @@
         return a.park.localeCompare(b.park);
         })
 
-    let i = 2;
+    // Pick a random coaster id.
+    let i = Math.floor(Math.random() * array.length);
 
     let dispImage = "";
     if (array[i].image !== "-"){
