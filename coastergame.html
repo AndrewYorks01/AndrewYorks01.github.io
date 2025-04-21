@@ -10,10 +10,17 @@
   
   
   <style>
+
+    .wrapper{
+        text-align: center;
+    }
+
     button{
       font-family: "Open Sans";
       font-size: 16px;
       padding: 12px 24px;
+      position: absolute;
+      top: 50%
     }
     body{
       font-family: "Open Sans";
@@ -30,10 +37,13 @@
 <body>
     <h1 style align="center">Guess the Coaster</h1>
     <p style align="center" id="coasterPic"></p>
-    <br><button style align="center" id="button1">-</button>
-    <br><button style align="center" id="button2">-</button>
-    <br><button style align="center" id="button3">-</button>
-    <br><button style align="center" id="button4">-</button>
+    <div class="wrapper">
+        <br><button id="button1">-</button>
+        <br><button id="button2">-</button>
+        <br><button id="button3">-</button>
+        <br><button id="button4">-</button>
+    </div>
+
 
     <script>
 
