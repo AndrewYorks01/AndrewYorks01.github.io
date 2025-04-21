@@ -90,6 +90,11 @@ xmlhttp.send();
         return a.park.localeCompare(b.park);
       })
 
+      let dispImage = "";
+      if (array[i].image !== "-"){
+        dispImage += "<img src=\"" + array[i].image + "\" alt=\"" + array[i].name + "\" style=\"width:500px;height:500px;\">";
+      }
+
       let dispText = "<b>" + array[i].name + "</b>" + " at " + array[i].park;
       if (array[i].manufacturer === "in-house")
         dispText += "<br>This coaster was built in-house by the park themselves.";
@@ -100,7 +105,7 @@ xmlhttp.send();
       if (array[i].ridedate !== "-")
         dispText += "<br>I rode this coaster for the first time " + array[i].ridedate + ".";
 
-      document.getElementById("showCoaster").innerHTML = dispText;
+      document.getElementById("showCoaster").innerHTML = dispImage + dispText;
       }
 
       request.open("GET", "coasterdata.txt");
