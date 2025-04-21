@@ -50,7 +50,7 @@
   {"name":"Freedom Flyer", "park":"Fun Spot America Orlando", "manufacturer":"Vekoma", "credit":"155", "ridedate":"on February 17, 2025", "image":"freedomflyer.png"},
   {"name":"Fury 325", "park":"Carowinds", "manufacturer":"B&M", "credit":"77", "ridedate":"on July 28, 2021", "image":"fury325.png"},
   {"name":"Galaxy Spin", "park":"Fun Spot America Kissimmee", "manufacturer":"Zamperla", "credit":"157", "ridedate":"on February 17, 2025", "image":"galaxyspin.png"},
-  {"name":"Gemini", "park":"Cedar Point", "manufacturer":"Arrow", "credit":"-", "ridedate":"on Aguust 15, 2008", "image":"gemini.png"},
+  {"name":"Gemini", "park":"Cedar Point", "manufacturer":"Arrow", "credit":"-", "ridedate":"on August 15, 2008", "image":"gemini.png"},
   {"name":"Goliath", "park":"Six Flags Over Georgia", "manufacturer":"B&M", "credit":"144", "ridedate":"on October 14, 2024", "image":"goliath_sfog.png"},
   {"name":"Goofy's Sky School", "park":"California Adventure", "manufacturer":"Mack", "credit":"-", "ridedate":"sometime in July 2008", "image":"goofysskyschool.png"},
   {"name":"Gotham City Gauntlet Escape from Arkham Asylum", "park":"Six Flags New England", "manufacturer":"Maurer", "credit":"-", "ridedate":"on July 11, 2014", "image":"gothamcity.png"},
