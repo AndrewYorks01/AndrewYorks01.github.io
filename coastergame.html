@@ -10,9 +10,6 @@
   
   
   <style>
-
-    h1 {text-align: center;}
-    
     button{
       font-family: "Open Sans";
       font-size: 16px;
@@ -31,7 +28,26 @@
   </style>
 
 <body>
-    <h1>Guess the Coaster</h1>
+    <h1 style align="center">Guess the Coaster</h1>
+
+    <script>
+    const xmlhttp = new XMLHttpRequest();
+    xmlhttp.onload = function() {
+    const obj = JSON.parse(this.responseText);
+    const array = obj.coasters;
+
+    // Sort the coasters alphabetically.
+    array.sort((a, b) => {
+        const nameComp = a.name.localeCompare(b.name);
+        if (nameComp !== 0){
+            return nameComp;
+        }
+        return a.park.localeCompare(b.park);
+        })
+    }
+    xmlhttp.open("GET", "coasterdata.txt");
+    xmlhttp.send();
+    </script>
 </body>
 
 </html>
