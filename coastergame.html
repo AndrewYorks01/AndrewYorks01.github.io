@@ -30,6 +30,10 @@
 <body>
     <h1 style align="center">Guess the Coaster</h1>
     <p style align="center" id="coasterPic"></p>
+    <button id="button1">-</button>
+    <button id="button2">-</button>
+    <button id="button3">-</button>
+    <button id="button4">-</button>
 
     <script>
 
@@ -133,12 +137,12 @@
 
     let dispImage = "";
     if (array[i].image !== "-"){
-        dispImage += "<img src=\"" + array[i].image + "\" style=\"width:250px;height:250px;\"><br>";
+        dispImage += "<img src=\"" + array[i].image + "\" style=\"width:500px;height:500px;\"><br>";
     }
 
     while (!check(array[i])){
         i = Math.floor(Math.random() * array.length);
-        dispImage = "<img src=\"" + array[i].image + "\" style=\"width:250px;height:250px;\"><br>";
+        dispImage = "<img src=\"" + array[i].image + "\" style=\"width:500px;height:500px;\"><br>";
     }
 
     document.getElementById("coasterPic").innerHTML = dispImage;
