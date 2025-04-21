@@ -32,6 +32,16 @@
     <p style align="center" id="coasterPic"></p>
 
     <script>
+
+    function check(coaster){
+    if (coaster.image === "spacemountain_ca.png")
+        return false;
+    else if (coaster.image === "spacemountain_fl.png")
+        return false;
+    else
+        return true;
+    }
+
     const xmlhttp = new XMLHttpRequest();
     xmlhttp.onload = function() {
     const obj = JSON.parse(this.responseText);
@@ -53,6 +63,9 @@
     if (array[i].image !== "-"){
         dispImage += "<img src=\"" + array[i].image + "\" style=\"width:250px;height:250px;\"><br>";
     }
+
+    while (!check(array[i]))
+        dispImage = "<img src=\"" + array[i].image + "\" style=\"width:250px;height:250px;\"><br>";
 
     document.getElementById("coasterPic").innerHTML = dispImage;
 
