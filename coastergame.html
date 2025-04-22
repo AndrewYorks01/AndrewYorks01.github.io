@@ -197,7 +197,7 @@
     let wrongName1 = array[randid].name;
     let wrongID1 = array[randid].image;
 
-    while ( (wrongID1 === array[i].image) || (!check(array[wrongID1])) ){
+    while ( (wrongID1 === array[i].image) || (!check(wrongID1)) ){
         randid = Math.floor(Math.random() * array.length); 
         wrongName1 = array[randid].name;
         wrongID1 = array[randid].image;
