@@ -122,6 +122,10 @@
         return false;
     else if (coaster.image === "whitelightning.png")
         return false;
+    else if (coaster.image === "wildcat_cp.png")
+        return false;
+    else if (coaster.image === "wildcat_hp.png")
+        return false;
     else
         return true;
     }
@@ -166,6 +170,16 @@
         document.getElementById("button3").innerHTML = array[i].name;
     else
         document.getElementById("button4").innerHTML = array[i].name;
+
+    // Set the incorrect answers.
+    let wrongName1 = array[i].name;
+    while ( (wrongName1 === array[i].name) || (!check[wrongName1]) )
+        wrongName1 = array[Math.floor(Math.random() * array.length)].name;
+
+    if (rightBtn === 0)
+        document.getElementById("button2").innerHTML = wrongName1;
+    else
+        document.getElementById("button1").innerHTML = wrongName1;
 
     } // end of load function
     xmlhttp.open("GET", "coasterdata.txt");
