@@ -198,6 +198,11 @@
         wrongID2 = array[randid].image;
     }
 
+    if (rightBtn === 1)
+        document.getElementById("button3").innerHTML = wrongName2;
+    else
+        document.getElementById("button2").innerHTML = wrongName2;
+
     } // end of load function
     xmlhttp.open("GET", "coasterdata.txt");
     xmlhttp.send();
