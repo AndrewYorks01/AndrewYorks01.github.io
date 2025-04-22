@@ -167,7 +167,7 @@
 
     while (!check(array[i])){
         i = Math.floor(Math.random() * array.length);
-        dispImage += "<img src=\"" + array[i].image + "\" alt=\"" + "Guess the Coaster" + "\" style=\"width:500px;height:500px;\"><br>";
+        dispImage = "<img src=\"" + array[i].image + "\" alt=\"" + "Guess the Coaster" + "\" style=\"width:500px;height:500px;\"><br>";
     }
 
     document.getElementById("coasterPic").innerHTML = dispImage;
