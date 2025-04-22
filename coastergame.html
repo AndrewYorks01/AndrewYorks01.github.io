@@ -36,10 +36,10 @@
     <h1 style align="center">Guess the Coaster</h1>
     <p style align="center" id="coasterPic"></p>
     <div class="wrapper">
-        <br><button id="button1" onclick="pickAnswer()">-</button>
-        <br><button id="button2" onclick="pickAnswer()">-</button>
-        <br><button id="button3" onclick="pickAnswer()">-</button>
-        <br><button id="button4" onclick="pickAnswer()">-</button>
+        <br><button id="button1" onclick="pickAnswer(rightBtn)">-</button>
+        <br><button id="button2" onclick="pickAnswer(rightBtn)">-</button>
+        <br><button id="button3" onclick="pickAnswer(rightBtn)">-</button>
+        <br><button id="button4" onclick="pickAnswer(rightBtn)">-</button>
     </div>
 
 
@@ -130,10 +130,10 @@
         return true;
     }
 
-    function pickAnswer(){
+    function pickAnswer(param){
     let buttonid = event.target.id;
     //alert(buttonid);
-    if ( (buttonid === "button1") && (rightBtn === 0) )
+    if ( (buttonid === "button1") && (param === 0) )
         alert("Yes, that's correct!");
     }
 
