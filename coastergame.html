@@ -133,12 +133,8 @@
     function pickAnswer(){
     let buttonid = event.target.id;
     //alert(buttonid);
-    if (buttonid === rightans){
+    if ( (buttonid === "button1") && (rightBtn === 0) )
         alert("Yes, that's correct!");
-    }
-    else{
-        alert("Sorry, that's not correct.");
-    }
     }
 
     const xmlhttp = new XMLHttpRequest();
