@@ -48,11 +48,7 @@
     // Makes sure some coasters don't show up (mostly coasters that show their name in the picture).
     // "Sister" coasters at different parks that may be hard to distinguish won't show up either.
     function check(coaster){
-    if (coaster.image === "spacemountain_ca.png")
-        return false;
-    else if (coaster.image === "spacemountain_fl.png")
-        return false;
-    else if (coaster.image === "backlot.png")
+    if (coaster.image === "backlot.png")
         return false;
     else if (coaster.image === "bigthunder_ca.png")
         return false;
@@ -158,6 +154,14 @@
             x.image = "scorpion_alt.png";
         else if (x.image === "skyrocket.png")
             x.image = "skyrocket_alt.png";
+        else if (x.image === "spacemountain_ca.png"){
+            x.name = "Space Mountain (Disneyland)";
+            x.image = "spacemountain_ca_alt.png";
+        }
+        else if (x.image === "spacemountain_fl.png"){
+            x.name = "Space Mountain (Magic Kingdom)";
+            x.image = "spacemountain_fl_alt.png";
+        }
         else if (x.image === "whitelightning.png")
             x.image = "whitelightning_alt.png";
         else if (x.image === "wildcat_cp.png")
