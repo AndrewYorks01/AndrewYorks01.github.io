@@ -98,10 +98,6 @@
         return false;
     else if (coaster.image === "runawaymountain.png")
         return false;
-    else if (coaster.image === "wildcat_cp.png")
-        return false;
-    else if (coaster.image === "wildcat_hp.png")
-        return false;
     else
         return true;
     }
@@ -164,6 +160,10 @@
             x.image = "skyrocket_alt.png";
         else if (x.image === "whitelightning.png")
             x.image = "whitelightning_alt.png";
+        else if (x.image === "wildcat_cp.png")
+            x.name = "Wildcat (Cedar Point)";
+        else if (x.image === "wildcat_hp.png")
+            x.name = "Wildcat (Hersheypark)";
     }
 
     // Pick a random coaster id.
