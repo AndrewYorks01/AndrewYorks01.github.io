@@ -173,13 +173,8 @@
 
     // Set the incorrect answers.
     let randid = Math.floor(Math.random() * array.length);
-    let wrongName1 = array[i].name;
-    let wrongID1 = array[i].image;
-    while ( (wrongID1 === array[i].image) || (!check[wrongID1]) ){
-        randid = Math.floor(Math.random() * array.length)
-        wrongName1 = array[randid].name;
-        wrongID1 = array[randid].image;
-    }
+    let wrongName1 = array[randid].name;
+    let wrongID1 = array[randid].image;
 
     if (rightBtn === 0)
         document.getElementById("button2").innerHTML = wrongName1;
