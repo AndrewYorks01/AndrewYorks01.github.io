@@ -132,7 +132,10 @@
 
     function pickAnswer(){
     let buttonid = event.target.id;
-    alert(buttonid);
+    if (buttonid === "correct")
+        alert("Yes, that's correct!");
+    else
+        alert("Sorry, that's not correct.");
     }
 
     const xmlhttp = new XMLHttpRequest();
