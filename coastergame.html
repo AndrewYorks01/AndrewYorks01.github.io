@@ -64,8 +64,6 @@
         return false;
     else if (coaster.image === "blazingfury.png")
         return false;
-    else if (coaster.image === "comet.png")
-        return false;
     else if (coaster.image === "copperheadmountain.png")
         return false;
     else if (coaster.image === "cyclone.png")
@@ -158,6 +156,8 @@
     for (let x of array){
         if (x.image === "bluestreak.png")
             x.image = "bluestreak_alt.png";
+        else if (x.image === "comet.png")
+            x.image = "comet_alt.png";
     }
 
     // Pick a random coaster id.
