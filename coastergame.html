@@ -134,8 +134,10 @@
     let buttonid = event.target.id;
     if (buttonid === "correct")
         alert("Yes, that's correct!");
-    else
+    else{
         alert("Sorry, that's not correct.");
+        buttonid.disabled = true;
+    }   
     }
 
     const xmlhttp = new XMLHttpRequest();
