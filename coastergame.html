@@ -80,8 +80,6 @@
         return false;
     else if (coaster.image === "gothamcity.png")
         return false;
-    else if (coaster.image === "grizzly.png")
-        return false;
     else if (coaster.image === "hurler_kd.png")
         return false;
     else if (coaster.image === "pandemonium_overtx.png")
@@ -99,10 +97,6 @@
     else if (coaster.image === "revengeofthemummy_hollywood.png")
         return false;
     else if (coaster.image === "runawaymountain.png")
-        return false;
-    else if (coaster.image === "skyrocket.png")
-        return false;
-    else if (coaster.image === "whitelightning.png")
         return false;
     else if (coaster.image === "wildcat_cp.png")
         return false;
@@ -140,15 +134,22 @@
         })
 
     // Replace images that show the coaster's name with alternate images.
+    // Also, disambiguate coasters with the same name.
     for (let x of array){
         if (x.image === "americanthunder.png")
             x.image = "americanthunder_alt.png";
+        else if (x.image === "batman_ga.png")
+            x.name = "Batman The Ride (Over Georgia)";
+        else if (x.image === "batman_tx.png")
+            x.name = "Batman The Ride (Over Texas)";
         else if (x.image === "bluestreak.png")
             x.image = "bluestreak_alt.png";
         else if (x.image === "comet.png")
             x.image = "comet_alt.png";
         else if (x.image === "daredevildive.png")
             x.image = "daredevildive_alt.png";
+        else if (x.image === "grizzly.png")
+            x.image = "grizzly_alt.png";
         else if (x.image === "judgeroyscream.png")
             x.image = "judgeroyscream_alt.png";
         else if (x.image === "maverick.png")
@@ -159,6 +160,10 @@
             x.image = "phoenix_alt.png";
         else if (x.image === "scorpion.png")
             x.image = "scorpion_alt.png";
+        else if (x.image === "skyrocket.png")
+            x.image = "skyrocket_alt.png";
+        else if (x.image === "whitelightning.png")
+            x.image = "whitelightning_alt.png";
     }
 
     // Pick a random coaster id.
