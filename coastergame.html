@@ -176,6 +176,12 @@
     let wrongName1 = array[randid].name;
     let wrongID1 = array[randid].image;
 
+    while (wrongID1 === array[i].image){
+        randid = Math.floor(Math.random() * array.length); 
+        wrongName1 = array[randid].name;
+        wrongID1 = array[randid].image;
+    }
+
     if (rightBtn === 0)
         document.getElementById("button2").innerHTML = wrongName1;
     else
