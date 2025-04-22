@@ -36,10 +36,10 @@
     <h1 style align="center">Guess the Coaster</h1>
     <p style align="center" id="coasterPic"></p>
     <div class="wrapper">
-        <br><button id="button1">-</button>
-        <br><button id="button2">-</button>
-        <br><button id="button3">-</button>
-        <br><button id="button4">-</button>
+        <br><button id="button1" onclick="pickAnswer()">-</button>
+        <br><button id="button2" onclick="pickAnswer()">-</button>
+        <br><button id="button3" onclick="pickAnswer()">-</button>
+        <br><button id="button4" onclick="pickAnswer()">-</button>
     </div>
 
 
@@ -128,6 +128,11 @@
         return false;
     else
         return true;
+    }
+
+    function pickAnswer(){
+    let buttonid = event.target.id;
+    alert(buttonid);
     }
 
     const xmlhttp = new XMLHttpRequest();
