@@ -194,14 +194,30 @@
 
     while ( (wrongID2 === array[i].image) || (wrongID2 === wrongID1) || (!check(wrongID2)) ){
         randid2 = Math.floor(Math.random() * array.length); 
-        wrongName2 = array[randid].name;
-        wrongID2 = array[randid].image;
+        wrongName2 = array[randid2].name;
+        wrongID2 = array[randid2].image;
     }
 
     if (rightBtn === 0)
         document.getElementById("button3").innerHTML = wrongName2;
     else
         document.getElementById("button2").innerHTML = wrongName2;
+
+    // Third incorrect answer.
+    let randid3 = Math.floor(Math.random() * array.length);
+    let wrongName3 = array[randid3].name;
+    let wrongID3 = array[randid3].image;
+
+    while ( (wrongID3 === array[i].image) || (wrongID3 === wrongID1)|| (wrongID3 === wrongID2) || (!check(wrongID3)) ){
+        randid3 = Math.floor(Math.random() * array.length); 
+        wrongName3 = array[randid3].name;
+        wrongID3 = array[randid3].image;
+    }
+
+    if (rightBtn === 0)
+        document.getElementById("button4").innerHTML = wrongName2;
+    else
+        document.getElementById("button3").innerHTML = wrongName2;
 
     } // end of load function
     xmlhttp.open("GET", "coasterdata.txt");
