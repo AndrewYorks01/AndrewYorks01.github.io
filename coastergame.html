@@ -207,7 +207,7 @@
     let wrongName2 = array[randid2].name;
     let wrongID2 = array[randid2].image;
 
-    while ( (wrongID2 === array[i].image) || (wrongID2 === wrongID1) || (!check(array[randid])) ){
+    while ( (wrongID2 === array[i].image) || (wrongID2 === wrongID1) || (!check(array[randid2])) ){
         randid2 = Math.floor(Math.random() * array.length); 
         wrongName2 = array[randid2].name;
         wrongID2 = array[randid2].image;
@@ -217,7 +217,7 @@
     let wrongName3 = array[randid3].name;
     let wrongID3 = array[randid3].image;
 
-    while ( (wrongID3 === array[i].image) || (wrongID3 === wrongID1)|| (wrongID3 === wrongID2) || (!check(array[randid])) ){
+    while ( (wrongID3 === array[i].image) || (wrongID3 === wrongID1)|| (wrongID3 === wrongID2) || (!check(array[randid3])) ){
         randid3 = Math.floor(Math.random() * array.length); 
         wrongName3 = array[randid3].name;
         wrongID3 = array[randid3].image;
