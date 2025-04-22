@@ -182,10 +182,10 @@
         wrongID1 = array[randid].image;
     }
 
-    if (rightBtn === 0)
-        document.getElementById("button2").innerHTML = wrongName1;
-    else
-        document.getElementById("button1").innerHTML = wrongName1;
+    //if (rightBtn === 0)
+    //    document.getElementById("button2").innerHTML = wrongName1;
+    //else
+    //    document.getElementById("button1").innerHTML = wrongName1;
 
     // Second incorrect answer.
     let randid2 = Math.floor(Math.random() * array.length);
@@ -198,10 +198,10 @@
         wrongID2 = array[randid2].image;
     }
 
-    if (rightBtn === 0)
-        document.getElementById("button3").innerHTML = wrongName2;
-    else
-        document.getElementById("button2").innerHTML = wrongName2;
+    //if (rightBtn === 0)
+    //    document.getElementById("button3").innerHTML = wrongName2;
+    //else
+    //    document.getElementById("button2").innerHTML = wrongName2;
 
     // Third incorrect answer.
     let randid3 = Math.floor(Math.random() * array.length);
@@ -214,10 +214,10 @@
         wrongID3 = array[randid3].image;
     }
 
-    if (rightBtn === 0)
-        document.getElementById("button4").innerHTML = wrongName3;
-    else
-        document.getElementById("button3").innerHTML = wrongName3;
+    //if (rightBtn === 0)
+    //    document.getElementById("button4").innerHTML = wrongName3;
+    //else
+    //    document.getElementById("button3").innerHTML = wrongName3;
 
     } // end of load function
     xmlhttp.open("GET", "coasterdata.txt");
