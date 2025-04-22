@@ -187,6 +187,17 @@
     else
         document.getElementById("button1").innerHTML = wrongName1;
 
+    // Second incorrect answer.
+    let randid2 = Math.floor(Math.random() * array.length);
+    let wrongName2 = array[randid2].name;
+    let wrongID2 = array[randid2].image;
+
+    while ( (wrongID2 === array[i].image) || (wrongID2 === wrongID1) || (!check(wrongID2)) ){
+        randid2 = Math.floor(Math.random() * array.length); 
+        wrongName2 = array[randid].name;
+        wrongID2 = array[randid].image;
+    }
+
     } // end of load function
     xmlhttp.open("GET", "coasterdata.txt");
     xmlhttp.send();
