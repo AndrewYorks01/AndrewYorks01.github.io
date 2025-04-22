@@ -132,11 +132,13 @@
 
     function pickAnswer(){
     let buttonid = event.target.id;
-    if (buttonid === "correct")
+    if (buttonid === "correct"){
         alert("Yes, that's correct!");
+        window.location.reload();
+    }
     else{
         alert("Sorry, that's not correct.");
-        const b = document.getElementById(buttonid);
+        let b = document.getElementById(buttonid);
         b.disabled = true;
     }   
     }
@@ -201,12 +203,6 @@
         wrongID1 = array[randid].image;
     }
 
-    //if (rightBtn === 0)
-    //    document.getElementById("button2").innerHTML = wrongName1;
-    //else
-    //    document.getElementById("button1").innerHTML = wrongName1;
-
-    // Second incorrect answer.
     let randid2 = Math.floor(Math.random() * array.length);
     let wrongName2 = array[randid2].name;
     let wrongID2 = array[randid2].image;
@@ -217,12 +213,6 @@
         wrongID2 = array[randid2].image;
     }
 
-    //if (rightBtn === 0)
-    //    document.getElementById("button3").innerHTML = wrongName2;
-    //else
-    //    document.getElementById("button2").innerHTML = wrongName2;
-
-    // Third incorrect answer.
     let randid3 = Math.floor(Math.random() * array.length);
     let wrongName3 = array[randid3].name;
     let wrongID3 = array[randid3].image;
@@ -232,11 +222,6 @@
         wrongName3 = array[randid3].name;
         wrongID3 = array[randid3].image;
     }
-
-    //if (rightBtn === 0)
-    //    document.getElementById("button4").innerHTML = wrongName3;
-    //else
-    //    document.getElementById("button3").innerHTML = wrongName3;
 
     if (rightBtn == 0){
         document.getElementById("button2").innerHTML = wrongName1;
