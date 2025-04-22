@@ -52,8 +52,6 @@
         return false;
     else if (coaster.image === "spacemountain_fl.png")
         return false;
-    else if (coaster.image === "americanthunder.png")
-        return false;
     else if (coaster.image === "backlot.png")
         return false;
     else if (coaster.image === "bigthunder_ca.png")
@@ -84,21 +82,11 @@
         return false;
     else if (coaster.image === "grizzly.png")
         return false;
-    else if (coaster.image === "hurler_carowinds.png")
-        return false;
     else if (coaster.image === "hurler_kd.png")
-        return false;
-    else if (coaster.image === "judgeroyscream.png")
-        return false;
-    else if (coaster.image === "maverick.png")
-        return false;
-    else if (coaster.image === "newtexasgiant.png")
         return false;
     else if (coaster.image === "pandemonium_overtx.png")
         return false;
     else if (coaster.image === "pandemonium_stlo.png")
-        return false;
-    else if (coaster.image === "phoenix.png")
         return false;
     else if (coaster.image === "queencity.png")
         return false;
@@ -111,8 +99,6 @@
     else if (coaster.image === "revengeofthemummy_hollywood.png")
         return false;
     else if (coaster.image === "runawaymountain.png")
-        return false;
-    else if (coaster.image === "scorpion.png")
         return false;
     else if (coaster.image === "skyrocket.png")
         return false;
@@ -153,11 +139,26 @@
         return a.park.localeCompare(b.park);
         })
 
+    // Replace images that show the coaster's name with alternate images.
     for (let x of array){
-        if (x.image === "bluestreak.png")
+        if (x.image === "americanthunder.png")
+            x.image = "americanthunder_alt.png";
+        else if (x.image === "bluestreak.png")
             x.image = "bluestreak_alt.png";
         else if (x.image === "comet.png")
             x.image = "comet_alt.png";
+        else if (x.image === "daredevildive.png")
+            x.image = "daredevildive_alt.png";
+        else if (x.image === "judgeroyscream.png")
+            x.image = "judgeroyscream_alt.png";
+        else if (x.image === "maverick.png")
+            x.image = "maverick_alt.png";
+        else if (x.image === "newtexasgiant.png")
+            x.image = "newtexasgiant_alt.png";
+        else if (x.image === "phoenix.png")
+            x.image = "phoenix_alt.png";
+        else if (x.image === "scorpion.png")
+            x.image = "scorpion_alt.png";
     }
 
     // Pick a random coaster id.
