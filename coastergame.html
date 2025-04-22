@@ -155,7 +155,19 @@
 
     document.getElementById("coasterPic").innerHTML = dispImage;
 
-    }
+    // Button with the correct answer.
+    let rightBtn = Math.floor(Math.random() * 4);
+
+    if (rightBtn === 0)
+        document.getElementById("button1").innerHTML = array[i].name;
+    else if (rightBtn === 1)
+        document.getElementById("button2").innerHTML = array[i].name;
+    else if (rightBtn === 2)
+        document.getElementById("button3").innerHTML = array[i].name;
+    else
+        document.getElementById("button4").innerHTML = array[i].name;
+
+    } // end of load function
     xmlhttp.open("GET", "coasterdata.txt");
     xmlhttp.send();
     </script>
