@@ -157,6 +157,10 @@
         return a.park.localeCompare(b.park);
         })
 
+    for (let x of array){
+        x.name = "Test";
+    }
+
     // Pick a random coaster id.
     let i = Math.floor(Math.random() * array.length);
 
