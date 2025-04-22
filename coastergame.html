@@ -64,8 +64,6 @@
         return false;
     else if (coaster.image === "blazingfury.png")
         return false;
-    else if (coaster.image === "bluestreak.png")
-        return false;
     else if (coaster.image === "comet.png")
         return false;
     else if (coaster.image === "copperheadmountain.png")
@@ -157,9 +155,10 @@
         return a.park.localeCompare(b.park);
         })
 
-    //for (let x of array){
-    //    x.name = "Test";
-    //}
+    for (let x of array){
+        if (x.image === "bluestreak.png")
+            x.image = "bluestreak_alt.png";
+    }
 
     // Pick a random coaster id.
     let i = Math.floor(Math.random() * array.length);
