@@ -45,8 +45,8 @@
 
     <script>
 
-    // Makes sure some coasters don't show up (mostly coasters that show their name in the picture).
-    // "Sister" coasters at different parks that may be hard to distinguish won't show up either.
+    // Makes sure some coasters don't show up, mostly indoor coasters that are hard to get a picture of, or
+    // "sister" coasters at different parks that may be hard to distinguish.
     function check(coaster){
     if (coaster.image === "backlot.png")
         return false;
@@ -134,6 +134,8 @@
             x.image = "darkoaster_alt.png";
         else if (x.image === "flyingturns.png")
             x.image = "flyingturns_alt.png";
+        else if (x.image === "fury325.png")
+            x.image = "fury325_alt.png";
         else if (x.image === "galaxyspin.png")
             x.image = "galaxyspin_alt.png";
         else if (x.image === "gothamcity.png")
