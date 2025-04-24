@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<meta charset="UTF-8">
 <html>
 
 <head>
@@ -10,6 +11,17 @@
   
   
   <style>
+
+    .menu{
+        background-color: lightgray;
+    }
+
+    a{
+      color: black;
+        text-decoration: none;
+        background-color: none;
+    }
+
     button{
       font-family: "Open Sans";
       font-size: 16px;
@@ -28,7 +40,9 @@
   </style>
 
 <body>
-
+<div class = "menu">
+<p><a href="index.html">Home</a> · <a href="jsoncoaster.html">List</a> · <a href="coastergame.html">Game</a></p>
+</div>
 <h1>Coaster List</h1>
 <p>Click on a coaster to display information about it. You can also sort the data. <br>Note that currently, you can only display information if the list is sorted by coaster name.</p>
 <p id="showCoaster"></p>
