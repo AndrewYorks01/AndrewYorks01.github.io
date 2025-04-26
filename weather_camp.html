@@ -295,7 +295,7 @@ const array = obj.parks;
   }
 
   entries.sort(function(a, b){
-    return a.score - b.score || a.name.localeCompare(b.name);
+    return b.score - a.score || a.name.localeCompare(b.name);
   });
 
   var i;
