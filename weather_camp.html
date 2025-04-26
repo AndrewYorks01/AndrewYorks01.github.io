@@ -295,7 +295,7 @@ const array = obj.parks;
   }
 
   var i;
-  var table="<tr><th>Park</th><th>Station</th><th>Max</th><th>Min</th><th>Rain</th></tr>";
+  var table="<tr><th>Park</th><th>Station</th><th>Max</th><th>Min</th><th>Rain</th>th>Score</th></tr>";
 
     for (i = 0; i <array.length; i++) { 
     table += "<tr><td>" +
@@ -308,6 +308,8 @@ const array = obj.parks;
     entries[i].min +
     "</td><td>" +  
     entries[i].rain +
+    "</td><td>" +  
+    entries[i].score +
     "</td></tr>";
 
     document.getElementById("monthhead").innerHTML = heading;
