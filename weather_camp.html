@@ -139,12 +139,12 @@ const xmlhttp = new XMLHttpRequest();
 xmlhttp.onload = function() {
     const obj = JSON.parse(this.responseText);
     const array = obj.locations;
+    
+  if (month == 1)
+    alert("January");
 }
 xmlhttp.open("GET", "parkweather.txt");
 xmlhttp.send();  
-
-if (month == 1)
-  alert("January");
 }
 
 </script>
