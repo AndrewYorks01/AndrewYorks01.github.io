@@ -259,6 +259,41 @@ const array = obj.parks;
     }
   }
 
+  for (let x of entries){
+    let hi_range = Math.abs(x.max - base_high);
+    let lo_range = Math.abs(x.min - base_low);
+
+    // high
+    if (hi_range <= 5)
+      x.score += 2;
+    else if ((hi_range > 5) && (hi_range <= 10))
+      x.score += 1;
+    else
+      x.score += 0;
+
+    // low
+    if (lo_range <= 5)
+      x.score += 2;
+    else if ((lo_range > 5) && (lo_range <= 10))
+      x.score += 1;
+    else
+      x.score += 0;
+
+    // rain
+    if (x.rain <= 5)
+      x.score += 2;
+    else if ( (x.rain > 5) && (x.rain <= 10) )
+      x.score += 1;
+    else
+      x.score += 0;
+
+    // wind and dew point will be added later
+    if (x.max < 30)
+      x.score = 0;
+    if (x.max > 90)
+      x.score = 0;
+  }
+
   var i;
   var table="<tr><th>Park</th><th>Station</th><th>Max</th><th>Min</th><th>Rain</th></tr>";
 
