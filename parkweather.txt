@@ -1,0 +1,364 @@
+{"parks":[
+	{"name":"Acadia National Park", "state":"ME", "station":"E SURRY, ME US",
+	"janmax":30.8, "febmax":32.4, "marmax":40.4, "aprmax":52.0, "maymax":63.4, "junmax":70.5, 
+	"julmax":78.1, "augmax":77.0, "sepmax":70.0, "octmax":57.8, "novmax":46.5, "decmax":35.4,
+
+	"janmin":12.4, "febmin":12.5, "marmin":21.7, "aprmin":32.2, "maymin":42.5, "junmin":51.3, 
+	"julmin":58.4, "augmin":58.6, "sepmin":49.5, "octmin":39.0, "novmin":28.9, "decmin":19.1,	
+	
+	"janrain":3.83, "febrain":3.86, "marrain":3.60, "aprrain":4.48, "mayrain":3.67, "junrain":5.31,
+	"julrain":3.40, "augrain":3.69, "seprain":3.56, "octrain":5.46, "novrain":4.93, "decrain":5.49
+	},
+
+	{"name":"Franconia Notch State Park", "state":"NH", "station":"LINCOLN NEPP, NH US",
+	"janmax":29.5, "febmax":30.7, "marmax":39.8, "aprmax":54.0, "maymax":66.6, "junmax":74.3, 
+	"julmax":80.7, "augmax":78.4, "sepmax":72.5, "octmax":58.1, "novmax":45.1, "decmax":34.8,
+
+	"janmin":9.2, "febmin":10.0, "marmin":18.6, "aprmin":30.3, "maymin":43.2, "junmin":51.6, 
+	"julmin":57.8, "augmin":54.7, "sepmin":47.7, "octmin":37.1, "novmin":26.4, "decmin":17.3,	
+	
+	"janrain":3.34, "febrain":3.47, "marrain":3.18, "aprrain":5.42, "mayrain":4.68, "junrain":5.43,
+	"julrain":6.56, "augrain":4.04, "seprain":3.54, "octrain":5.99, "novrain":4.33, "decrain":5.13
+	},
+	
+	{"name":"Green Lakes State Park", "state":"NY", "station":"SYRACUSE HANCOCK INTL AP, NY US",
+	"janmax":32.6, "febmax":33.0, "marmax":42.5, "aprmax":56.6, "maymax":70.2, "junmax":76.9, 
+	"julmax":82.6, "augmax":80.2, "sepmax":73.7, "octmax":60.5, "novmax":48.3, "decmax":37.5,
+
+	"janmin":17.3, "febmin":17.7, "marmin":25.4, "aprmin":36.3, "maymin":48.0, "junmin":57.0, 
+	"julmin":62.8, "augmin":60.8, "sepmin":53.3, "octmin":43.3, "novmin":32.4, "decmin":24.8,	
+	
+	"janrain":2.42, "febrain":2.95, "marrain":2.96, "aprrain":3.52, "mayrain":3.43, "junrain":4.36,
+	"julrain":4.07, "augrain":3.69, "seprain":3.33, "octrain":4.71, "novrain":2.89, "decrain":3.80
+	},
+	
+	{"name":"Black Moshannon State Park", "state":"PA", "station":"PHILIPSBURG 2 S, PA US",
+	"janmax":32.4, "febmax":34.3, "marmax":44.3, "aprmax":57.5, "maymax":68.3, "junmax":75.4, 
+	"julmax":80.4, "augmax":78.3, "sepmax":72.0, "octmax":59.6, "novmax":46.9, "decmax":36.9,
+
+	"janmin":15.8, "febmin":16.1, "marmin":23.5, "aprmin":34.7, "maymin":45.8, "junmin":53.2, 
+	"julmin":57.6, "augmin":55.7, "sepmin":49.1, "octmin":39.2, "novmin":28.9, "decmin":22.8,	
+	
+	"janrain":2.72, "febrain":2.76, "marrain":3.38, "aprrain":3.65, "mayrain":4.25, "junrain":4.37,
+	"julrain":4.19, "augrain":3.63, "seprain":3.57, "octrain":3.96, "novrain":2.55, "decrain":3.74	
+	},
+	
+	{"name":"Shenandoah National Park", "state":"VA", "station":"WOODSTOCK 2 NE, VA US",
+	"janmax":42.9, "febmax":45.5, "marmax":54.5, "aprmax":65.8, "maymax":73.9, "junmax":81.9, 
+	"julmax":86.0, "augmax":84.1, "sepmax":78.9, "octmax":67.6, "novmax":55.9, "decmax":47.0,
+
+	"janmin":22.0, "febmin":22.9, "marmin":30.1, "aprmin":39.4, "maymin":49.6, "junmin":58.5, 
+	"julmin":62.7, "augmin":61.2, "sepmin":54.8, "octmin":43.4, "novmin":31.9, "decmin":26.3,	
+	
+	"janrain":2.50, "febrain":2.36, "marrain":2.64, "aprrain":3.42, "mayrain":4.73, "junrain":4.35,
+	"julrain":3.86, "augrain":4.21, "seprain":4.10, "octrain":3.61, "novrain":2.49, "decrain":3.11
+	},
+	
+	{"name":"Roan Mountain State Park", "state":"TN", "station":"ROAN MTN 3SW, TN US",
+	"janmax":43.9, "febmax":47.8, "marmax":55.4, "aprmax":65.2, "maymax":71.2, "junmax":77.6, 
+	"julmax":79.6, "augmax":78.8, "sepmax":73.9, "octmax":66.1, "novmax":56.7, "decmax":49.2,
+
+	"janmin":21.4, "febmin":23.9, "marmin":29.7, "aprmin":38.4, "maymin":47.7, "junmin":55.2, 
+	"julmin":58.6, "augmin":57.4, "sepmin":52.0, "octmin":39.9, "novmin":29.2, "decmin":26.7,	
+	
+	"janrain":4.06, "febrain":3.69, "marrain":4.37, "aprrain":5.01, "mayrain":5.49, "junrain":4.69,
+	"julrain":5.81, "augrain":4.99, "seprain":4.12, "octrain":4.04, "novrain":3.50, "decrain":4.89
+	},
+	
+	{"name":"Congaree National Park", "state":"SC", "station":"CEDAR CREEK 2E, SC US",
+	"janmax":54.5, "febmax":57.8, "marmax":65.6, "aprmax":74.7, "maymax":81.0, "junmax":88.2, 
+	"julmax":90.8, "augmax":89.2, "sepmax":84.4, "octmax":74.9, "novmax":63.8, "decmax":57.9,
+
+	"janmin":29.0, "febmin":31.3, "marmin":37.2, "aprmin":45.2, "maymin":55.4, "junmin":64.6, 
+	"julmin":67.9, "augmin":67.7, "sepmin":61.1, "octmin":47.8, "novmin":35.6, "decmin":32.9,	
+	
+	"janrain":3.64, "febrain":3.33, "marrain":3.41, "aprrain":3.06, "mayrain":3.89, "junrain":3.94,
+	"julrain":3.70, "augrain":5.11, "seprain":3.72, "octrain":3.70, "novrain":3.59, "decrain":5.22
+	},
+
+	{"name":"Great Smoky Mountains National Park", "state":"TN", "station":"GATLINBURG 2 SW, TN US",
+	"janmax":46.7, "febmax":50.8, "marmax":59.7, "aprmax":69.3, "maymax":75.2, "junmax":81.3, 
+	"julmax":82.9, "augmax":82.0, "sepmax":77.3, "octmax":68.3, "novmax":58.3, "decmax":51.2,
+
+	"janmin":26.5, "febmin":28.8, "marmin":35.8, "aprmin":42.8, "maymin":51.6, "junmin":59.0, 
+	"julmin":62.8, "augmin":62.1, "sepmin":57.2, "octmin":45.1, "novmin":33.3, "decmin":30.9,	
+	
+	"janrain":4.58, "febrain":4.24, "marrain":5.23, "aprrain":5.03, "mayrain":5.18, "junrain":5.50,
+	"julrain":6.31, "augrain":4.50, "seprain":4.42, "octrain":3.98, "novrain":3.94, "decrain":5.45
+	},
+	
+	{"name":"Everglades National Park", "state":"FL", "station":"ROYAL PALM RS, FL US",
+	"janmax":79.3, "febmax":82.0, "marmax":84.5, "aprmax":89.0, "maymax":91.1, "junmax":92.9, 
+	"julmax":93.4, "augmax":93.9, "sepmax":92.2, "octmax":88.8, "novmax":83.8, "decmax":81.3,
+
+	"janmin":55.2, "febmin":56.6, "marmin":57.5, "aprmin":62.6, "maymin":66.8, "junmin":72.2, 
+	"julmin":73.7, "augmin":74.9, "sepmin":74.5, "octmin":71.2, "novmin":63.8, "decmin":59.9,	
+	
+	"janrain":1.41, "febrain":1.96, "marrain":1.28, "aprrain":3.13, "mayrain":6.56, "junrain":8.08,
+	"julrain":7.59, "augrain":8.14, "seprain":8.71, "octrain":4.85, "novrain":2.26, "decrain":2.20
+	},
+	
+	{"name":"Bahia Honda State Park", "state":"FL", "station":"MARATHON AP, FL US",
+	"janmax":76.3, "febmax":78.6, "marmax":81.0, "aprmax":85.3, "maymax":87.6, "junmax":90.3, 
+	"julmax":91.4, "augmax":91.5, "sepmax":89.9, "octmax":86.3, "novmax":81.0, "decmax":78.6,
+
+	"janmin":65.2, "febmin":67.4, "marmin":69.2, "aprmin":74.0, "maymin":76.6, "junmin":79.4, 
+	"julmin":79.9, "augmin":79.9, "sepmin":78.9, "octmin":76.5, "novmin":71.2, "decmin":68.8,	
+	
+	"janrain":1.40, "febrain":1.99, "marrain":1.06, "aprrain":2.51, "mayrain":4.27, "junrain":3.73,
+	"julrain":4.62, "augrain":5.30, "seprain":6.36, "octrain":6.04, "novrain":2.01, "decrain":2.25
+	},
+	
+	{"name":"Red Top Mountain State Park", "state":"GA", "station":"ALLATOONA DAM 2, GA US",
+	"janmax":52.5, "febmax":56.7, "marmax":65.1, "aprmax":73.4, "maymax":80.1, "junmax":86.9, 
+	"julmax":88.7, "augmax":89.0, "sepmax":84.2, "octmax":74.6, "novmax":63.5, "decmax":55.8,
+
+	"janmin":29.4, "febmin":31.9, "marmin":40.0, "aprmin":48.0, "maymin":57.1, "junmin":65.3, 
+	"julmin":68.3, "augmin":68.2, "sepmin":62.5, "octmin":50.1, "novmin":37.5, "decmin":33.9,	
+	
+	"janrain":4.76, "febrain":4.72, "marrain":4.86, "aprrain":4.67, "mayrain":3.83, "junrain":3.99,
+	"julrain":4.42, "augrain":4.71, "seprain":3.81, "octrain":3.88, "novrain":3.72, "decrain":5.59
+	},
+	
+	{"name":"Cheaha State Park", "state":"AL", "station":"ANNISTON METRO AP, AL US",
+	"janmax":55.0, "febmax":59.1, "marmax":67.6, "aprmax":75.5, "maymax":82.1, "junmax":89.2, 
+	"julmax":90.6, "augmax":90.6, "sepmax":86.0, "octmax":76.1, "novmax":65.4, "decmax":58.3,
+
+	"janmin":33.7, "febmin":37.0, "marmin":44.4, "aprmin":50.5, "maymin":59.6, "junmin":67.3, 
+	"julmin":70.4, "augmin":70.3, "sepmin":64.5, "octmin":52.4, "novmin":40.3, "decmin":37.7,	
+	
+	"janrain":4.88, "febrain":5.36, "marrain":5.18, "aprrain":4.50, "mayrain":4.41, "junrain":3.43,
+	"julrain":4.50, "augrain":4.28, "seprain":2.69, "octrain":3.68, "novrain":3.81, "decrain":5.20
+	},
+	
+	{"name":"Hot Springs National Park", "state":"AR", "station":"HOT SPRINGS 1 NNE, AR US",
+	"janmax":52.3, "febmax":55.5, "marmax":65.7, "aprmax":73.7, "maymax":80.4, "junmax":89.3, 
+	"julmax":92.7, "augmax":91.9, "sepmax":86.0, "octmax":74.9, "novmax":63.8, "decmax":54.8,
+
+	"janmin":31.6, "febmin":34.2, "marmin":43.1, "aprmin":50.4, "maymin":60.3, "junmin":69.5, 
+	"julmin":72.3, "augmin":71.5, "sepmin":64.9, "octmin":52.0, "novmin":42.1, "decmin":34.4,	
+	
+	"janrain":3.45, "febrain":5.21, "marrain":6.09, "aprrain":7.19, "mayrain":7.43, "junrain":3.94,
+	"julrain":4.68, "augrain":4.37, "seprain":4.77, "octrain":4.79, "novrain":4.28, "decrain":5.41
+	},
+	
+	{"name":"Big Bend National Park", "state":"TX", "station":"PANTHER JUNCTION, TX US",
+	"janmax":60.0, "febmax":66.8, "marmax":75.0, "aprmax":82.7, "maymax":88.6, "junmax":93.8, 
+	"julmax":91.5, "augmax":91.7, "sepmax":84.8, "octmax":80.2, "novmax":69.7, "decmax":62.1,
+
+	"janmin":36.3, "febmin":41.4, "marmin":47.4, "aprmin":54.2, "maymin":62.2, "junmin":68.8, 
+	"julmin":70.0, "augmin":69.9, "sepmin":63.7, "octmin":55.5, "novmin":45.6, "decmin":38.0,	
+	
+	"janrain":0.55, "febrain":0.31, "marrain":0.26, "aprrain":0.37, "mayrain":1.32, "junrain":1.83,
+	"julrain":1.74, "augrain":1.74, "seprain":1.95, "octrain":0.76, "novrain":0.64, "decrain":0.56
+	},
+	
+	{"name":"Carlsbad Caverns National Park", "state":"NM", "station":"CARLSBAD CAVERNS, NM US",
+	"janmax":55.6, "febmax":62.0, "marmax":68.9, "aprmax":77.0, "maymax":83.7, "junmax":93.9, 
+	"julmax":91.3, "augmax":91.2, "sepmax":83.5, "octmax":75.9, "novmax":66.0, "decmax":57.4,
+
+	"janmin":31.9, "febmin":34.4, "marmin":42.4, "aprmin":49.2, "maymin":57.6, "junmin":66.3, 
+	"julmin":67.9, "augmin":66.9, "sepmin":60.4, "octmin":51.0, "novmin":42.1, "decmin":34.2,	
+	
+	"janrain":0.41, "febrain":0.32, "marrain":0.60, "aprrain":0.52, "mayrain":1.42, "junrain":1.01,
+	"julrain":2.54, "augrain":2.00, "seprain":3.35, "octrain":1.20, "novrain":0.53, "decrain":0.51
+	},
+	
+	{"name":"Petrified Forest National Park", "state":"AZ", "station":"PERTRIFIED FOREST NP, AZ US",
+	"janmax":49.5, "febmax":56.7, "marmax":65.3, "aprmax":72.9, "maymax":80.3, "junmax":92.6, 
+	"julmax":93.1, "augmax":90.8, "sepmax":85.0, "octmax":73.9, "novmax":62.4, "decmax":49.6,
+
+	"janmin":20.2, "febmin":24.0, "marmin":30.0, "aprmin":35.9, "maymin":43.4, "junmin":54.1, 
+	"julmin":61.2, "augmin":60.0, "sepmin":52.4, "octmin":39.5, "novmin":28.4, "decmin":21.5,	
+	
+	"janrain":0.96, "febrain":0.79, "marrain":0.79, "aprrain":0.43, "mayrain":0.54, "junrain":0.32,
+	"julrain":2.17, "augrain":1.81, "seprain":1.21, "octrain":0.89, "novrain":0.84, "decrain":1.04
+	},
+	
+	{"name":"Rocky Mountain National Park", "state":"CO", "station":"ESTES PARK 3 SSE, CO US",
+	"janmax":36.8, "febmax":36.7, "marmax":46.0, "aprmax":51.4, "maymax":60.2, "junmax":75.4, 
+	"julmax":80.3, "augmax":78.2, "sepmax":70.4, "octmax":56.2, "novmax":45.8, "decmax":35.8,
+
+	"janmin":16.1, "febmin":15.4, "marmin":21.6, "aprmin":26.0, "maymin":33.7, "junmin":43.4, 
+	"julmin":48.6, "augmin":46.4, "sepmin":39.3, "octmin":30.1, "novmin":24.5, "decmin":15.5,	
+	
+	"janrain":0.63, "febrain":0.86, "marrain":1.38, "aprrain":2.14, "mayrain":2.74, "junrain":1.24,
+	"julrain":2.80, "augrain":1.48, "seprain":1.84, "octrain":1.28, "novrain":0.67, "decrain":0.96
+	},
+	
+	{"name":"Cuyahoga Valley National Park", "state":"OH", "station":"STOW 4 SE, OH US",
+	"janmax":33.9, "febmax":35.6, "marmax":46.5, "aprmax":60.1, "maymax":71.3, "junmax":78.6, 
+	"julmax":82.7, "augmax":81.3, "sepmax":75.1, "octmax":61.2, "novmax":48.9, "decmax":39.4,
+
+	"janmin":18.4, "febmin":18.2, "marmin":25.5, "aprmin":36.5, "maymin":48.3, "junmin":56.8, 
+	"julmin":61.0, "augmin":59.1, "sepmin":53.4, "octmin":42.0, "novmin":31.6, "decmin":25.4,	
+	
+	"janrain":2.97, "febrain":3.04, "marrain":3.56, "aprrain":3.54, "mayrain":4.20, "junrain":4.78,
+	"julrain":4.31, "augrain":3.25, "seprain":3.84, "octrain":3.83, "novrain":2.93, "decrain":3.31
+	},
+	
+	{"name":"Voyageurs National Park", "state":"MN", "station":"KABETOGAMA, MN US",
+	"janmax":16.3, "febmax":18.9, "marmax":36.0, "aprmax":49.1, "maymax":63.5, "junmax":73.0, 
+	"julmax":78.7, "augmax":76.3, "sepmax":66.8, "octmax":51.1, "novmax":35.2, "decmax":20.2,
+
+	"janmin":-5.9, "febmin":-7.9, "marmin":9.4, "aprmin":22.9, "maymin":36.4, "junmin":47.6, 
+	"julmin":52.4, "augmin":49.3, "sepmin":42.6, "octmin":31.6, "novmin":18.3, "decmin":2.3,	
+	
+	"janrain":0.94, "febrain":0.80, "marrain":1.25, "aprrain":2.03, "mayrain":2.90, "junrain":4.64,
+	"julrain":4.06, "augrain":3.53, "seprain":3.89, "octrain":2.65, "novrain":1.60, "decrain"1.39:
+	},
+	
+	{"name":"Theodore Roosevelt National Park", "state":"ND", "station":"MEDORA, ND US",
+	"janmax":29.0, "febmax":28.6, "marmax":44.1, "aprmax":55.3, "maymax":66.8, "junmax":78.0, 
+	"julmax":86.7, "augmax":84.6, "sepmax":74.4, "octmax":57.0, "novmax":44.0, "decmax":29.6,
+
+	"janmin":4.9, "febmin":4.8, "marmin":18.5, "aprmin":28.6, "maymin":40.4, "junmin":50.1, 
+	"julmin":56.4, "augmin":52.8, "sepmin":43.3, "octmin":29.6, "novmin":18.4, "decmin":6.0,	
+	
+	"janrain":0.38, "febrain":0.51, "marrain":0.71, "aprrain":1.64, "mayrain":3.16, "junrain":2.42,
+	"julrain":2.12, "augrain":1.89, "seprain":2.07, "octrain":1.25, "novrain":0.50, "decrain":0.73
+	},
+	
+	{"name":"Glacier National Park", "state":"MT", "station":"W GLACIER, MT US",
+	"janmax":31.0, "febmax":33.2, "marmax":43.0, "aprmax":52.6, "maymax":64.7, "junmax":71.4, 
+	"julmax":82.0, "augmax":80.3, "sepmax":68.8, "octmax":51.9, "novmax":38.3, "decmax":29.4,
+
+	"janmin":20.0, "febmin":18.8, "marmin":25.7, "aprmin":31.3, "maymin":39.0, "junmin":45.3, 
+	"julmin":50.1, "augmin":48.2, "sepmin":41.5, "octmin":33.1, "novmin":26.7, "decmin":19.7,	
+	
+	"janrain":3.64, "febrain":2.42, "marrain":2.91, "aprrain":2.27, "mayrain":2.77, "junrain":3.86,
+	"julrain":1.19, "augrain":1.11, "seprain":1.77, "octrain":3.31, "novrain":3.43, "decrain":3.30
+	},
+	
+	{"name":"Yellowstone National Park", "state":"WY", "station":"YELLOWSTONE NP E ENT, WY US",
+	"janmax":29.6, "febmax":31.0, "marmax":39.3, "aprmax":46.9, "maymax":57.2, "junmax":68.1, 
+	"julmax":78.6, "augmax":77.3, "sepmax":67.8, "octmax":50.9, "novmax":38.0, "decmax":28.5,
+
+	"janmin":3.9, "febmin":5.8, "marmin":11.4, "aprmin":21.1, "maymin":29.4, "junmin":34.9, 
+	"julmin":39.2, "augmin":36.9, "sepmin":31.2, "octmin":23.5, "novmin":14.1, "decmin":4.3,	
+	
+	"janrain":1.98, "febrain":2.25, "marrain":2.06, "aprrain":2.52, "mayrain":2.53, "junrain":2.70,
+	"julrain":1.21, "augrain":1.29, "seprain":2.05, "octrain":2.84, "novrain":2.90, "decrain":2.45
+	},
+	
+	{"name":"Zion National Park", "state":"UT", "station":"ZION NP, UT US",
+	"janmax":54.3, "febmax":58.3, "marmax":66.7, "aprmax":74.1, "maymax":83.2, "junmax":96.9, 
+	"julmax":101.1, "augmax":98.3, "sepmax":91.4, "octmax":78.3, "novmax":66.0, "decmax":52.6,
+
+	"janmin":29.3, "febmin":32.6, "marmin":38.5, "aprmin":43.9, "maymin":52.1, "junmin":63.1, 
+	"julmin":70.6, "augmin":69.0, "sepmin":61.9, "octmin":48.1, "novmin":37.9, "decmin":29.1,	
+	
+	"janrain":1.86, "febrain":1.55, "marrain":1.89, "aprrain":1.10, "mayrain":0.85, "junrain":0.15,
+	"julrain":1.41, "augrain":1.93, "seprain":1.24, "octrain":0.96, "novrain":1.09, "decrain":2.20
+	},
+
+	{"name":"Grand Teton National Park", "state":"WY", "station":"MORAN 5WNW, WY US",
+	"janmax":23.6, "febmax":29.0, "marmax":38.3, "aprmax":45.9, "maymax":56.0, "junmax":67.2, 
+	"julmax":77.5, "augmax":75.8, "sepmax":66.7, "octmax":49.9, "novmax":36.0, "decmax":23.8,
+
+	"janmin":0.8, "febmin":4.2, "marmin":11.3, "aprmin":21.0, "maymin":30.5, "junmin":37.7, 
+	"julmin":43.3, "augmin":40.4, "sepmin":34.0, "octmin":25.3, "novmin":15.8, "decmin":3.9,	
+	
+	"janrain":2.72, "febrain":2.63, "marrain":2.50, "aprrain":2.21, "mayrain":2.16, "junrain":1.83,
+	"julrain":0.87, "augrain":1.13, "seprain":1.74, "octrain":2.27, "novrain":2.44, "decrain":3.02
+	},
+	
+	{"name":"Olympic National Park", "state":"WA", "station":"PORT ANGELES INTL ATP, WA US",
+	"janmax":45.5, "febmax":45.8, "marmax":49.4, "aprmax":53.7, "maymax":59.8, "junmax":63.4, 
+	"julmax":68.3, "augmax":69.9, "sepmax":65.9, "octmax":56.8, "novmax":49.6, "decmax":44.3,
+
+	"janmin":33.3, "febmin":33.0, "marmin":34.7, "aprmin":38.5, "maymin":43.7, "junmin":47.7, 
+	"julmin":51.1, "augmin":51.0, "sepmin":47.7, "octmin":41.3, "novmin":36.0, "decmin":32.8,	
+	
+	"janrain":4.02, "febrain":2.93, "marrain":2.58, "aprrain":1.55, "mayrain":1.00, "junrain":0.53,
+	"julrain":0.23, "augrain":0.51, "seprain":1.46, "octrain":3.17, "novrain":5.60, "decrain":4.90
+	},
+	
+	{"name":"Crater Lake National Park", "state":"OR", "station":"CRATER LAKE NPS HQ, OR US",
+	"janmax":34.2, "febmax":33.5, "marmax":35.2, "aprmax":40.9, "maymax":49.6, "junmax":58.0, 
+	"julmax":70.0, "augmax":70.0, "sepmax":63.2, "octmax":50.1, "novmax":38.6, "decmax":32.6,
+
+	"janmin":20.0, "febmin":18.5, "marmin":19.7, "aprmin":22.7, "maymin":29.2, "junmin":33.8, 
+	"julmin":41.8, "augmin":41.9, "sepmin":37.2, "octmin":30.0, "novmin":23.5, "decmin":18.3,	
+	
+	"janrain":10.09, "febrain":7.81, "marrain":9.03, "aprrain":6.34, "mayrain":3.75, "junrain":2.48,
+	"julrain":0.50, "augrain":0.75, "seprain":2.46, "octrain":5.59, "novrain":9.78, "decrain":10.76
+	},
+	
+	{"name":"Redwood National Park", "state":"CA", "station":"CRESCENT CITY MCNAMARA AP, CA US",
+	"janmax":55.8, "febmax":55.1, "marmax":55.3, "aprmax":56.8, "maymax":59.0, "junmax":61.7, 
+	"julmax":62.9, "augmax":64.2, "sepmax":64.6, "octmax":62.1, "novmax":58.3, "decmax":54.9,
+
+	"janmin":41.7, "febmin":41.7, "marmin":42.7, "aprmin":44.2, "maymin":47.1, "junmin":49.7, 
+	"julmin":51.8, "augmin":52.8, "sepmin":50.5, "octmin":48.0, "novmin":44.3, "decmin":41.2,	
+	
+	"janrain":8.75, "febrain":7.04, "marrain":8.61, "aprrain":4.76, "mayrain":2.19, "junrain":1.37,
+	"julrain":0.21, "augrain":0.28, "seprain":1.33, "octrain":4.46, "novrain":7.51, "decrain":10.29
+	},
+	
+	{"name":"Yosemite National Park", "state":"CA", "station":"YOSEMITE PARK HQ, CA US",
+	"janmax":47.2, "febmax":52.1, "marmax":56.7, "aprmax":63.8, "maymax":71.8, "junmax":81.7, 
+	"julmax":90.8, "augmax":89.6, "sepmax":83.9, "octmax":70.7, "novmax":57.0, "decmax":45.2,
+
+	"janmin":28.9, "febmin":30.4, "marmin":32.9, "aprmin":37.6, "maymin":44.7, "junmin":51.9, 
+	"julmin":58.6, "augmin":57.5, "sepmin":51.1, "octmin":40.5, "novmin":33.3, "decmin":28.3,	
+	
+	"janrain":4.23, "febrain":5.05, "marrain":5.46, "aprrain":3.31, "mayrain":1.83, "junrain":0.46,
+	"julrain":0.42, "augrain":0.44, "seprain":0.63, "octrain":1.06, "novrain":2.74, "decrain":4.56
+	},
+	
+	{"name":"Sequoia National Park", "state":"CA", "station":"LODGEPOLE, CA US",
+	"janmax":39.4, "febmax":40.9, "marmax":44.9, "aprmax":51.0, "maymax":58.4, "junmax":69.9, 
+	"julmax":76.9, "augmax":76.4, "sepmax":70.5, "octmax":58.2, "novmax":47.4, "decmax":37.1,
+
+	"janmin":17.4, "febmin":18.8, "marmin":21.7, "aprmin":26.7, "maymin":32.9, "junmin":39.7, 
+	"julmin":46.6, "augmin":44.5, "sepmin":39.6, "octmin":31.1, "novmin":23.9, "decmin":17.4,	
+	
+	"janrain":5.03, "febrain":8.65, "marrain":6.93, "aprrain":4.44, "mayrain":1.96, "junrain":0.27,
+	"julrain":0.51, "augrain":0.11, "seprain":0.76, "octrain":2.05, "novrain":2.76, "decrain":7.24
+	},
+	
+	{"name":"Mount Rushmore", "state":"SD", "station":"MT RUSHMORE NMEM, SD US",
+	"janmax":37.6, "febmax":34.4, "marmax":45.5, "aprmax":50.1, "maymax":59.3, "junmax":72.4, 
+	"julmax":79.5, "augmax":77.3, "sepmax":69.8, "octmax":54.4, "novmax":46.1, "decmax":35.7,
+
+	"janmin":19.5, "febmin":16.1, "marmin":26.6, "aprmin":31.7, "maymin":41.7, "junmin":52.8, 
+	"julmin":60.0, "augmin":58.1, "sepmin":50.2, "octmin":36.4, "novmin":28.2, "decmin":18.8,	
+	
+	"janrain":0.42, "febrain":0.80, "marrain":1.33, "aprrain":2.61, "mayrain":5.25, "junrain":3.44,
+	"julrain":3.94, "augrain":2.39, "seprain":1.71, "octrain":1.52, "novrain":0.52, "decrain":0.65
+	},
+	
+	{"name":"Lake Macbride State Park", "state":"IA", "station":"CEDAR RAPIDS #1, IA US",
+	"janmax":30.1, "febmax":33.0, "marmax":49.3, "aprmax":63.2, "maymax":74.4, "junmax":83.2, 
+	"julmax":86.1, "augmax":83.7, "sepmax":78.0, "octmax":63.5, "novmax":48.7, "decmax":34.7,
+
+	"janmin":13.0, "febmin":14.4, "marmin":28.3, "aprmin":38.4, "maymin":50.1, "junmin":60.2, 
+	"julmin":63.7, "augmin":61.3, "sepmin":53.7, "octmin":41.3, "novmin":29.8, "decmin":18.8,	
+	
+	"janrain":1.18, "febrain":1.36, "marrain":2.25, "aprrain":4.59, "mayrain":4.05, "junrain":6.45,
+	"julrain":4.40, "augrain":4.64, "seprain":4.21, "octrain":3.44, "novrain":1.91, "decrain":2.09
+	},
+	
+	{"name":"High Cliff State Park", "state":"WI", "station":"APPLETON, WI US",
+	"janmax":26.5, "febmax":28.0, "marmax":41.3, "aprmax":53.6, "maymax":67.8, "junmax":77.2, 
+	"julmax":82.5, "augmax":79.8, "sepmax":72.4, "octmax":58.0, "novmax":44.1, "decmax":30.9,
+
+	"janmin":11.4, "febmin":10.9, "marmin":22.4, "aprmin":33.6, "maymin":46.1, "junmin":56.3, 
+	"julmin":61.4, "augmin":59.3, "sepmin":50.9, "octmin":39.3, "novmin":28.5, "decmin":17.4,	
+	
+	"janrain":1.50, "febrain":1.31, "marrain":2.11, "aprrain":3.70, "mayrain":3.95, "junrain":4.94,
+	"julrain":3.94, "augrain":3.66, "seprain":3.76, "octrain":3.62, "novrain":1.96, "decrain":2.29
+	},
+
+	{"name":"Cheboygan State Park", "state":"MI", "station":"CHEBOYGAN, MI US",
+	"janmax":28.1, "febmax":28.5, "marmax":38.0, "aprmax":48.7, "maymax":62.0, "junmax":71.7, 
+	"julmax":78.0, "augmax":76.8, "sepmax":69.7, "octmax":56.1, "novmax":44.4, "decmax":33.4,
+
+	"janmin":13.2, "febmin":10.3, "marmin":18.6, "aprmin":30.0, "maymin":41.3, "junmin":51.5, 
+	"julmin":58.2, "augmin":57.2, "sepmin":49.8, "octmin":39.4, "novmin":30.1, "decmin":21.0,	
+	
+	"janrain":1.70, "febrain":1.26, "marrain":1.64, "aprrain":3.16, "mayrain":2.94, "junrain":3.16,
+	"julrain":2.69, "augrain":3.11, "seprain":3.55, "octrain":4.97, "novrain":2.61, "decrain":2.26
+	}
+]}
