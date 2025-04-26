@@ -70,6 +70,7 @@
       padding: 12px;
       text-decoration: none;
       display: block;
+      cursor: pointer;
     }
 
     .show {display: block;}
@@ -88,7 +89,7 @@
   <div class="dropdown">
     <button onclick="myFunction()" class="dropbtn">Month</button>
     <div id="myDropdown" class="dropdown-content">
-      <a>January</a>
+      <a onclick="showMonth(1)">January</a>
       <a>February</a>
       <a>March</a>
       <a>April</a>
@@ -103,9 +104,16 @@
     </div>
   </div>
 
+  <table id="demo"></table>
+
 </body>
 
 <script>
+
+base_high = 65.9;
+base_low = 46.7;
+base_rain = 4.84;
+
 function myFunction(){
   document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -122,6 +130,21 @@ window.onclick = function(event){
       }
     }
   }
+}
+
+// Next step: create a function that loads a table with the weather data.
+function showMonth(month){
+
+const xmlhttp = new XMLHttpRequest();
+xmlhttp.onload = function() {
+    const obj = JSON.parse(this.responseText);
+    const array = obj.locations;
+}
+request.open("GET", "parkweather.txt");
+request.send();  
+
+if (month == 1)
+  alert("January");
 }
 
 </script>
