@@ -90,7 +90,7 @@
     <button onclick="myFunction()" class="dropbtn">Month</button>
     <div id="myDropdown" class="dropdown-content">
       <a onclick="showMonth(1)">January</a>
-      <a>February</a>
+      <a onclick="showMonth(2)">February</a>
       <a>March</a>
       <a>April</a>
       <a>May</a>
@@ -146,6 +146,14 @@ const array = obj.parks;
     entries.length = 0;
     for (let x of array){
       let myObject = { name: x.name, state: x.state, station: x.station, max: x.janmax, min: x.janmin, rain: x.janrain};
+      entries.push(myObject);      
+    }
+  }
+
+  else if (month == 2){
+    entries.length = 0;
+    for (let x of array){
+      let myObject = { name: x.name, state: x.state, station: x.station, max: x.febmax, min: x.febmin, rain: x.febrain};
       entries.push(myObject);      
     }
   }
