@@ -39,6 +39,40 @@
     th,td {
     padding: 5px;
     }
+
+    .dropbtn{
+      background-color: lightgrey;
+      color: black;
+      font-family: "Open Sans";
+      font-size: 16px;
+      padding: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .dropdown{
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content{
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a{
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+
+    .show {display: block;}
+    }
+
 </style>
 
 <body>
@@ -48,6 +82,31 @@
   
   <h1>Camping Weather</h1>
   <p>This is just a placeholder for now.</p>
+
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Month</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a>January</a>
+      <a>February</a>
+      <a>March</a>
+      <a>April</a>
+      <a>May</a>
+      <a>June</a>
+      <a>July</a>
+      <a>August</a>
+      <a>September</a>
+      <a>October</a>
+      <a>November</a>
+      <a>December</a>
+    </div>
+  </div>
+
 </body>
+
+<script>
+function myFunction(){
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+</script>
 
 </html>
