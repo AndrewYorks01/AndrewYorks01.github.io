@@ -91,16 +91,16 @@
     <div id="myDropdown" class="dropdown-content">
       <a onclick="showMonth(1)">January</a>
       <a onclick="showMonth(2)">February</a>
-      <a>March</a>
-      <a>April</a>
-      <a>May</a>
-      <a>June</a>
-      <a>July</a>
-      <a>August</a>
-      <a>September</a>
-      <a>October</a>
-      <a>November</a>
-      <a>December</a>
+      <a onclick="showMonth(3)">March</a>
+      <a onclick="showMonth(4)">April</a>
+      <a onclick="showMonth(5)">May</a>
+      <a onclick="showMonth(6)">June</a>
+      <a onclick="showMonth(7)">July</a>
+      <a onclick="showMonth(8)">August</a>
+      <a onclick="showMonth(9)">September</a>
+      <a onclick="showMonth(10)">October</a>
+      <a onclick="showMonth(11)">November</a>
+      <a onclick="showMonth(12)">December</a>
     </div>
   </div>
 
@@ -140,6 +140,9 @@ xmlhttp.onload = function() {
 const obj = JSON.parse(this.responseText);
 const array = obj.parks;
 
+  // The array entries[] will be loaded with the associated data based on the month the user inputs.
+  // Any existing data will be deleted before the array is loaded.
+
   const entries = [];
 
   if (month == 1){
@@ -154,6 +157,86 @@ const array = obj.parks;
     entries.length = 0;
     for (let x of array){
       let myObject = { name: x.name, state: x.state, station: x.station, max: x.febmax, min: x.febmin, rain: x.febrain};
+      entries.push(myObject);      
+    }
+  }
+
+  else if (month == 3){
+    entries.length = 0;
+    for (let x of array){
+      let myObject = { name: x.name, state: x.state, station: x.station, max: x.marmax, min: x.marmin, rain: x.marrain};
+      entries.push(myObject);      
+    }
+  }
+
+  else if (month == 4){
+    entries.length = 0;
+    for (let x of array){
+      let myObject = { name: x.name, state: x.state, station: x.station, max: x.aprmax, min: x.aprmin, rain: x.aprrain};
+      entries.push(myObject);      
+    }
+  }
+
+  else if (month == 5){
+    entries.length = 0;
+    for (let x of array){
+      let myObject = { name: x.name, state: x.state, station: x.station, max: x.maymax, min: x.maymin, rain: x.mayrain};
+      entries.push(myObject);      
+    }
+  }
+
+  else if (month == 6){
+    entries.length = 0;
+    for (let x of array){
+      let myObject = { name: x.name, state: x.state, station: x.station, max: x.junmax, min: x.junmin, rain: x.junrain};
+      entries.push(myObject);      
+    }
+  }
+
+  else if (month == 7){
+    entries.length = 0;
+    for (let x of array){
+      let myObject = { name: x.name, state: x.state, station: x.station, max: x.julmax, min: x.julmin, rain: x.julrain};
+      entries.push(myObject);      
+    }
+  }
+
+  else if (month == 8){
+    entries.length = 0;
+    for (let x of array){
+      let myObject = { name: x.name, state: x.state, station: x.station, max: x.augmax, min: x.augmin, rain: x.augrain};
+      entries.push(myObject);      
+    }
+  }
+
+  else if (month == 9){
+    entries.length = 0;
+    for (let x of array){
+      let myObject = { name: x.name, state: x.state, station: x.station, max: x.sepmax, min: x.sepmin, rain: x.seprain};
+      entries.push(myObject);      
+    }
+  }
+
+  else if (month == 10){
+    entries.length = 0;
+    for (let x of array){
+      let myObject = { name: x.name, state: x.state, station: x.station, max: x.octmax, min: x.octmin, rain: x.octrain};
+      entries.push(myObject);      
+    }
+  }
+
+  else if (month == 11){
+    entries.length = 0;
+    for (let x of array){
+      let myObject = { name: x.name, state: x.state, station: x.station, max: x.novmax, min: x.novmin, rain: x.novrain};
+      entries.push(myObject);      
+    }
+  }
+
+  else if (month == 12){
+    entries.length = 0;
+    for (let x of array){
+      let myObject = { name: x.name, state: x.state, station: x.station, max: x.decmax, min: x.decmin, rain: x.decrain};
       entries.push(myObject);      
     }
   }
