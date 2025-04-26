@@ -140,8 +140,8 @@ xmlhttp.onload = function() {
     const obj = JSON.parse(this.responseText);
     const array = obj.locations;
 }
-request.open("GET", "parkweather.txt");
-request.send();  
+xmlhttp.open("GET", "parkweather.txt");
+xmlhttp.send();  
 
 if (month == 1)
   alert("January");
