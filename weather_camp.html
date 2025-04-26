@@ -140,10 +140,10 @@ xmlhttp.onload = function() {
 const obj = JSON.parse(this.responseText);
 const array = obj.locations;
 
-    const entries = [];
+const entries = [];
 
     if (month == 1){
-      alert(array[0].name);
+      console.log(obj);
       //for (let x of array){
       //  let myObject = { name: x.name, state: x.state, station: x.station, max: x.janmax, min: x.janmin, rain: x.janrain};
       //  entries.push(myObject);
