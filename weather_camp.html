@@ -27,6 +27,11 @@
     padding: 12px 24px;
     }
 
+    select{
+      font-family: "Open Sans";
+      font-size: 16px;
+    }
+
     body{
       font-family: "Open Sans";
     }
@@ -39,41 +44,6 @@
     th,td {
     padding: 5px;
     }
-
-    .dropbtn{
-      background-color: lightgrey;
-      color: black;
-      font-family: "Open Sans";
-      font-size: 16px;
-      padding: 16px;
-      border: none;
-      cursor: pointer;
-    }
-
-    .dropdown{
-      position: relative;
-      display: inline-block;
-    }
-
-    .dropdown-content{
-      display: none;
-      position: absolute;
-      background-color: #f9f9f9;
-      min-width: 60px;
-      overflow: auto;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
-    }
-
-    .dropdown-content a{
-      color: black;
-      padding: 12px;
-      text-decoration: none;
-      display: block;
-    }
-
-    .show {display: block;}
-
 </style>
 
 <body>
@@ -83,45 +53,25 @@
   
   <h1>Camping Weather</h1>
   <p>This is just a placeholder for now.</p>
+  <select name="month" id="month">
+    <option value="Jan">January</option>
+    <option value="Feb">February</option>
+    <option value="Mar">March</option>
+    <option value="Apr">April</option>
+    <option value="May">May</option>
+    <option value="Jun">June</option>
+    <option value="Jul">July</option>
+    <option value="Aug">August</option>
+    <option value="Sep">September</option>
+    <option value="Oct">October</option>
+    <option value="Nov">November</option>
+    <option value="Dec">December</option>    
+  </select>
 
-  <div class="dropdown">
-    <button onclick="myFunction()" class="dropbtn">Month</button>
-    <div id="myDropdown" class="dropdown-content">
-      <a>January</a>
-      <a>February</a>
-      <a>March</a>
-      <a>April</a>
-      <a>May</a>
-      <a>June</a>
-      <a>July</a>
-      <a>August</a>
-      <a>September</a>
-      <a>October</a>
-      <a>November</a>
-      <a>December</a>
-    </div>
-  </div>
 
 </body>
 
 <script>
-function myFunction(){
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close dropdown menu when user clicks outside
-window.onclick = function(event){
-  if (!event.target.matches('.dropbtn')){
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')){
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
 
 </script>
 
