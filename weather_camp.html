@@ -149,7 +149,26 @@ const array = obj.parks;
       entries.push(myObject);      
     }
   }
-  alert(entries[0].name);
+
+  var i;
+  var table="<tr><th>Park</th><th>Station</th><th>Max</th><th>Min</th><th>Rain</th></tr>";
+
+    for (i = 0; i <array.length; i++) { 
+    table += "<tr><td>" +
+    entries[i].name + ", " + entries[i].state +
+    "</td><td>" + 
+    entries[i].station +
+    "</td><td>" + 
+    entries[i].max +
+    "</td><td>" +
+    entries[i].min +
+    "</td><td>" +  
+    entries[i].rain +
+    "</td></tr>";
+
+    document.getElementById("demo").innerHTML = table;
+ }
+
 }
 xmlhttp.open("GET", "parkweather.txt");
 xmlhttp.send();  
