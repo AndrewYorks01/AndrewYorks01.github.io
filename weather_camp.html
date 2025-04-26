@@ -294,6 +294,10 @@ const array = obj.parks;
       x.score = 0;
   }
 
+  entries.sort(function(a, b){
+    return a.score - b.score || a.name.localeCompare(b.name);
+  });
+
   var i;
   var table="<tr><th>Park</th><th>Station</th><th>Max</th><th>Min</th><th>Rain</th><th>Score</th></tr>";
 
