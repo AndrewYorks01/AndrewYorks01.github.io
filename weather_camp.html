@@ -75,6 +75,10 @@
 
     .show {display: block;}
 
+    .monthhead{
+      text-align: center;
+    }
+
 
 </style>
 
@@ -84,6 +88,7 @@
   </div>
 
   <h1>Camping Weather</h1>
+  <p id="monthhead"></p>
   <p>This is just a placeholder for now.</p>
 
   <div class="dropdown">
@@ -270,7 +275,8 @@ const array = obj.parks;
     entries[i].rain +
     "</td></tr>";
 
-    document.getElementById("demo").innerHTML = heading + "<br>" + table;
+    document.getElementById("monthhead").innerHTML = heading;
+    document.getElementById("demo").innerHTML = table;
  }
 
 }
