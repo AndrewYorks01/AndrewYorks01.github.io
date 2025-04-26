@@ -205,7 +205,7 @@
 	"julmin":52.4, "augmin":49.3, "sepmin":42.6, "octmin":31.6, "novmin":18.3, "decmin":2.3,	
 	
 	"janrain":0.94, "febrain":0.80, "marrain":1.25, "aprrain":2.03, "mayrain":2.90, "junrain":4.64,
-	"julrain":4.06, "augrain":3.53, "seprain":3.89, "octrain":2.65, "novrain":1.60, "decrain":1.39:
+	"julrain":4.06, "augrain":3.53, "seprain":3.89, "octrain":2.65, "novrain":1.60, "decrain":1.39
 	},
 	
 	{"name":"Theodore Roosevelt National Park", "state":"ND", "station":"MEDORA, ND US",
