@@ -351,6 +351,17 @@
 	"julrain":3.94, "augrain":3.66, "seprain":3.76, "octrain":3.62, "novrain":1.96, "decrain":2.29
 	},
 
+	{"name":"Charlestown State Park", "state":"IN", "station":"TEMPORARY DATA",
+	"janmax":41.0, "febmax":47.0, "marmax":57.0, "aprmax":67.0, "maymax":75.0, "junmax":83.0, 
+	"julmax":87.0, "augmax":86.0, "sepmax":79.0, "octmax":68.0, "novmax":56.0, "decmax":45.0,
+
+	"janmin":25.0, "febmin":29.0, "marmin":37.0, "aprmin":46.0, "maymin":56.0, "junmin":65.0, 
+	"julmin":70.0, "augmin":68.0, "sepmin":61.0, "octmin":49.0, "novmin":39.0, "decmin":30.0,	
+	
+	"janrain":3.3, "febrain":3.3, "marrain":4.4, "aprrain":3.9, "mayrain":4.9, "junrain":3.8, 
+	"julrain":4.3, "augrain":3.4, "seprain":3.1, "octrain":2.8, "novrain":3.8, "decrain":3.7
+	},
+
 	{"name":"Cheboygan State Park", "state":"MI", "station":"CHEBOYGAN, MI US",
 	"janmax":28.1, "febmax":28.5, "marmax":38.0, "aprmax":48.7, "maymax":62.0, "junmax":71.7, 
 	"julmax":78.0, "augmax":76.8, "sepmax":69.7, "octmax":56.1, "novmax":44.4, "decmax":33.4,
