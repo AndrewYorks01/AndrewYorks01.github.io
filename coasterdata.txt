@@ -6,6 +6,7 @@
   {"name":"Apollo's Chariot", "park":"Busch Gardens Williamsburg", "manufacturer":"B&M", "credit":"-", "ridedate":"sometime in 2007", "image":"apollos.png"},
   {"name":"Apple Zapple", "park":"Kings Dominion", "manufacturer":"Mack", "credit":"-", "ridedate":"on April 21, 2012", "image":"applezapple.png"},
   {"name":"Aquaman: Power Wave", "park":"Six Flags Over Texas", "manufacturer":"Mack", "credit":"112", "ridedate":"on April 7, 2024", "image":"aquaman.png"},
+  {"name":"ArieForce One", "park":"Fun Spot America Atlanta", "manufacturer":"RMC", "credit":"164", "ridedate":"on May 5, 2025", "image":"arieforce.png"},
   {"name":"Backlot Stunt Coaster", "park":"Kings Dominion", "manufacturer":"Premier", "credit":"-", "ridedate":"on April 21, 2012", "image":"backlot.png"},
   {"name":"Bat", "park":"Kings Island", "manufacturer":"Arrow", "credit":"89", "ridedate":"on August 1, 2021", "image":"bat.png"},
   {"name":"Batman The Ride", "park":"Six Flags Over Georgia", "manufacturer":"B&M", "credit":"146", "ridedate":"on October 14, 2024", "image":"batman_ga.png"},
