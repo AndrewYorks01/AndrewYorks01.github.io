@@ -12,6 +12,7 @@
   {"name":"Batman The Ride", "park":"Six Flags Over Georgia", "manufacturer":"B&M", "credit":"146", "ridedate":"on October 14, 2024", "image":"batman_ga.png"},
   {"name":"Batman The Ride", "park":"Six Flags Over Texas", "manufacturer":"B&M", "credit":"117", "ridedate":"on April 7, 2024", "image":"batman_tx.png"},
   {"name":"Big Bad Wolf", "park":"Busch Gardens Williamsburg", "manufacturer":"Arrow", "credit":"-", "ridedate":"sometime in 2004... I think", "image":"bigbadwolf.png"},
+  {"name":"Big Bad Wolf: The Wolf's Revenge", "park":"Busch Gardens Williamsburg", "manufacturer":"B&M", "credit":"165", "ridedate":"on May 23, 2025", "image":"bigbadwolf_revenge.png"}
   {"name":"Big Thunder Mountain Railroad", "park":"Disneyland", "manufacturer":"Disney", "credit":"-", "ridedate":"sometime in July 2008", "image":"bigthunder_ca.png"},
   {"name":"Big Thunder Mountain Railroad", "park":"Magic Kingdom", "manufacturer":"Disney", "credit":"-", "ridedate":"-", "image":"bigthunder_fl.png"},
   {"name":"Black Diamond", "park":"Knoebels", "manufacturer":"PTC", "credit":"75", "ridedate":"on August 3, 2019", "image":"blackdiamond.png"},
