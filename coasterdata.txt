@@ -78,7 +78,7 @@
   {"name":"Jolly Rancher Remix", "park":"Hersheypark", "manufacturer":"Vekoma", "credit":"139", "ridedate":"on September 2, 2024", "image":"jollyrancherremix.png"},
   {"name":"Journey to Atlantis", "park":"SeaWorld Orlando", "manufacturer":"Mack", "credit":"-", "ridedate":"sometime in 2006... I think", "image":"journeytoatlantis.png"},
   {"name":"Judge Roy Scream", "park":"Six Flags Over Texas", "manufacturer":"William Cobb", "credit":"115", "ridedate":"on April 7, 2024", "image":"judgeroyscream.png"},
-  {"name":"Kraken", "park":"SeaWorld Orlando", "manufacturer":"B&M", "credit":"126", "ridedate":"on April 7, 2024", "image":"kraken.png"},
+  {"name":"Kraken", "park":"SeaWorld Orlando", "manufacturer":"B&M", "credit":"126", "ridedate":"on April 27, 2024", "image":"kraken.png"},
   {"name":"Kumba", "park":"Busch Gardens Tampa", "manufacturer":"B&M", "credit":"-", "ridedate":"sometime in March 2014", "image":"kumba.png"},
   {"name":"La Vibora", "park":"Six Flags Over Texas", "manufacturer":"Intamin", "credit":"107", "ridedate":"on April 7, 2024", "image":"lavibora.png"},
   {"name":"Laff Trakk", "park":"Hersheypark", "manufacturer":"Maurer", "credit":"71", "ridedate":"on August 1, 2019", "image":"lafftrakk.png"},
