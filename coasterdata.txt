@@ -162,7 +162,7 @@
   {"name":"Tennessee Tornado", "park":"Dollywood", "manufacturer":"Arrow", "credit":"-", "ridedate":"on July 7, 2012", "image":"tennesseetornado.png"},
   {"name":"Thunder Road", "park":"Carowinds", "manufacturer":"PTC", "credit":"-", "ridedate":"sometime in May 2014", "image":"thunderroad.png"},
   {"name":"Thunder Striker", "park":"Carowinds", "manufacturer":"B&M", "credit":"-", "ridedate":"sometime in May 2014", "image":"thunderstriker.png"},
-  {"name":"Thunderation", "park":"Silver Dollar City", "manufacturer":"Arrow", "credit":"119", "ridedate":"-", "image":"thunderation.png"},
+  {"name":"Thunderation", "park":"Silver Dollar City", "manufacturer":"Arrow", "credit":"119", "ridedate":"on April 11, 2024", "image":"thunderation.png"},
   {"name":"Thunderbolt", "park":"Kennywood", "manufacturer":"Andy Vettel", "credit":"130", "ridedate":"on June 27, 2024", "image":"thunderbolt.png"},
   {"name":"Thunderhawk", "park":"Michigan's Adventure", "manufacturer":"Vekoma", "credit":"177", "ridedate":"on July 10, 2025", "image":"thunderhawk.png"}, 
   {"name":"Thunderhead", "park":"Dollywood", "manufacturer":"GCI", "credit":"-", "ridedate":"on July 21, 2007", "image":"thunderhead.png"},
