@@ -37,7 +37,7 @@
   {"name":"Daddy Pig's Roller Coaster", "park":"Peppa Pig Theme Park", "manufacturer":"Zamperla", "credit":"161", "ridedate":"on February 18, 2025", "image":"daddypig.png"},
   {"name":"Dahlonega Mine Train", "park":"Six Flags Over Georgia", "manufacturer":"Arrow", "credit":"147", "ridedate":"on October 14, 2024", "image":"dahlonega.png"},
   {"name":"Dare Devil Dive", "park":"Six Flags Over Georgia", "manufacturer":"Gerstlauer", "credit":"143", "ridedate":"on October 14, 2024", "image":"daredevildive.png"},
-  {"name":"Dark Knight", "park":"Six Flags Great Adventure", "manufacturer":"Mack", "credit":"192", "ridedate":"on July 3, 2026", "image":"darkknight.png"}
+  {"name":"Dark Knight", "park":"Six Flags Great Adventure", "manufacturer":"Mack", "credit":"192", "ridedate":"on July 3, 2026", "image":"darkknight.png"},
   {"name":"DarKoaster", "park":"Busch Gardens Williamsburg", "manufacturer":"Intamin", "credit":"103", "ridedate":"on May 22, 2023", "image":"darkoaster.png"},
   {"name":"Demon", "park":"California's Great America", "manufacturer":"Arrow", "credit":"182", "ridedate":"on October 5, 2025", "image":"demon.png"},
   {"name":"Diamondback", "park":"Kings Island", "manufacturer":"B&M", "credit":"84", "ridedate":"on August 1, 2021", "image":"diamondback.png"},
@@ -45,7 +45,7 @@
   {"name":"Doo Wopper", "park":"Morey's Piers", "manufacturer":"Zamperla", "credit":"-", "ridedate":"sometime in July 2004", "image":"doowopper.png"},
   {"name":"Dragon", "park":"Legoland Florida", "manufacturer":"Vekoma", "credit":"158", "ridedate":"on February 18, 2025", "image":"dragon.png"},
   {"name":"Dragonflier", "park":"Dollywood", "manufacturer":"Vekoma", "credit":"82", "ridedate":"on July 30, 2021", "image":"dragonflier.png"},
-  {"name":"El Toro", "park":"Six Flags Great Adventure", "manufacturer":"Intamin", "credit":"197", "ridedate":"on July 3, 2026", "image":"eltoro.png"}
+  {"name":"El Toro", "park":"Six Flags Great Adventure", "manufacturer":"Intamin", "credit":"197", "ridedate":"on July 3, 2026", "image":"eltoro.png"},
   {"name":"Expedition Everest", "park":"Animal Kingdom", "manufacturer":"Vekoma", "credit":"-", "ridedate":"sometime in February 2008", "image":"expeditioneverest.png"},
   {"name":"Exterminator", "park":"Kennywood", "manufacturer":"Reverchon", "credit":"133", "ridedate":"on June 27, 2024", "image":"exterminator.png"},
   {"name":"Fahrenheit", "park":"Hersheypark", "manufacturer":"Intamin", "credit":"70", "ridedate":"on August 1, 2019", "image":"fahrenheit.png"},
@@ -100,7 +100,7 @@
   {"name":"Manta", "park":"SeaWorld Orlando", "manufacturer":"B&M", "credit":"125", "ridedate":"on April 27, 2024", "image":"manta.png"},
   {"name":"Matterhorn Bobsleds", "park":"Disneyland", "manufacturer":"Arrow", "credit":"-", "ridedate":"sometime in July 2008", "image":"matterhorn.png"},
   {"name":"Maverick", "park":"Cedar Point", "manufacturer":"Intamin", "credit":"95", "ridedate":"on August 3, 2021", "image":"maverick.png"},
-  {"name":"Medusa", "park":"Six Flags Great Adventure", "manufacturer":"B&M", "credit":"195", "ridedate":"on July 3, 2026", "image":"medusa.png"}
+  {"name":"Medusa", "park":"Six Flags Great Adventure", "manufacturer":"B&M", "credit":"195", "ridedate":"on July 3, 2026", "image":"medusa.png"},
   {"name":"Millennium Force", "park":"Cedar Point", "manufacturer":"Intamin", "credit":"-", "ridedate":"on August 15, 2008", "image":"millenniumforce.png"},
   {"name":"Mine Blower", "park":"Fun Spot America Kissimmee", "manufacturer":"Gravity Group", "credit":"156", "ridedate":"on February 17, 2025", "image":"mineblower.png"},
   {"name":"Mine-Cart Madness", "park":"Epic Universe", "manufacturer":"Setpoint", "credit":"186", "ridedate":"on February 4, 2026", "image":"minecartmadness.png"}, 
@@ -109,7 +109,7 @@
   {"name":"Mystery Mine", "park":"Dollywood", "manufacturer":"Gerstlauer", "credit":"-", "ridedate":"on July 7, 2012", "image":"mysterymine.png"},
   {"name":"Mystic Timbers", "park":"Kings Island", "manufacturer":"GCI", "credit":"85", "ridedate":"on August 1, 2021", "image":"mystictimbers.png"},
   {"name":"New Texas Giant", "park":"Six Flags Over Texas", "manufacturer":"RMC", "credit":"108", "ridedate":"on April 7, 2024", "image":"newtexasgiant.png"},
-  {"name":"Nitro", "park":"Six Flags Great Adventure", "manufacturer":"B&M", "credit":"193", "ridedate":"on July 3, 2026", "image":"nitro.png"}
+  {"name":"Nitro", "park":"Six Flags Great Adventure", "manufacturer":"B&M", "credit":"193", "ridedate":"on July 3, 2026", "image":"nitro.png"},
   {"name":"Orion", "park":"Kings Island", "manufacturer":"B&M", "credit":"83", "ridedate":"on August 1, 2021", "image":"orion.png"},
   {"name":"Outlaw Run", "park":"Silver Dollar City", "manufacturer":"RMC", "credit":"121", "ridedate":"on April 11, 2024", "image":"outlawrun.png"},
   {"name":"Pandemonium", "park":"Six Flags New England", "manufacturer":"Gerstlauer", "credit":"-", "ridedate":"on July 11, 2014", "image":"pandemonium_ne.png"},
@@ -141,7 +141,7 @@
   {"name":"Rock 'n' Roller Coaster", "park":"Hollywood Studios", "manufacturer":"Vekoma", "credit":"-", "ridedate":"sometime in February 2012", "image":"rocknrollercoaster.png"},
   {"name":"Roller-Soaker", "park":"Hersheypark", "manufacturer":"Setpoint", "credit":"-", "ridedate":"on August 11, 2011", "image":"rollersoaker.png"},
   {"name":"Rougarou", "park":"Cedar Point", "manufacturer":"B&M", "credit":"168", "ridedate":"on July 8, 2025", "image":"rougarou.png"},
-  {"name":"Runaway Mine Train", "park":"Six Flags Great Adventure", "manufacturer":"Arrow", "credit":"196", "ridedate":"on July 3, 2026", "image":"runawayminetrain_sfgav.png"}
+  {"name":"Runaway Mine Train", "park":"Six Flags Great Adventure", "manufacturer":"Arrow", "credit":"196", "ridedate":"on July 3, 2026", "image":"runawayminetrain_sfgav.png"},
   {"name":"Runaway Mine Train", "park":"Six Flags Over Texas", "manufacturer":"Arrow", "credit":"111", "ridedate":"on April 7, 2024", "image":"runawayminetrain.png"},
   {"name":"Runaway Mountain", "park":"Six Flags Over Texas", "manufacturer":"Premier", "credit":"113", "ridedate":"on April 7, 2024", "image":"runawaymountain.png"},
   {"name":"Sand Serpent", "park":"Busch Gardens Tampa", "manufacturer":"Mack", "credit":"-", "ridedate":"sometime in February 2005", "image":"sandserpent.png"},
@@ -151,7 +151,7 @@
   {"name":"Shivering Timbers", "park":"Michigan's Adventure", "manufacturer":"CCI", "credit":"175", "ridedate":"on July 10, 2025", "image":"shiveringtimbers.png"},  
   {"name":"Shock Wave", "park":"Six Flags Over Texas", "manufacturer":"Schwarzkopf", "credit":"114", "ridedate":"on April 7, 2024", "image":"shockwave.png"},
   {"name":"Siren's Curse", "park":"Cedar Point", "manufacturer":"Vekoma", "credit":"167", "ridedate":"on July 8, 2025", "image":"sirenscurse.png"},
-  {"name":"Skull Mountain", "park":"Six Flags Great Adventure", "manufacturer":"Intamin", "credit":"194", "ridedate":"on July 3, 2026", "image":"runawayminetrain_sfgav.png"} 
+  {"name":"Skull Mountain", "park":"Six Flags Great Adventure", "manufacturer":"Intamin", "credit":"194", "ridedate":"on July 3, 2026", "image":"skullmountain.png"},
   {"name":"Sky Rocket", "park":"Kennywood", "manufacturer":"Premier", "credit":"134", "ridedate":"on June 27, 2024", "image":"skyrocket.png"},
   {"name":"Skyrush", "park":"Hersheypark", "manufacturer":"Intamin", "credit":"136", "ridedate":"on September 2, 2024", "image":"skyrush.png"},
   {"name":"Slinky Dog Dash", "park":"Hollywood Studios", "manufacturer":"Mack", "credit":"66", "ridedate":"on March 11, 2019", "image":"slinkydogdash.png"},
